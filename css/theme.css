@@ -1,0 +1,32 @@
+:root {
+    --clr-light-blue: rgb(135, 206, 235);
+    --clr-blue: rgb(0, 117, 255);
+    --clr-lightest: white;
+    --clr-mid: #555;
+    --clr-green: rgb(4, 167, 167);
+    --clr-grey-green: rgb(44, 58, 58);
+    --clr-dark: rgb(30, 39, 39);
+    --clr-darker: #222;
+    --clr-darkest: black;
+    --clr-code-bg: beige;
+    --clr-warning: red;
+
+    --highlight: var(--clr-light-blue);
+
+    /* Light theme (default) */
+    --body-bg: var(--clr-lightest);
+    --body-txt: var(--clr-darkest);
+    --main-link: var(--clr-blue);
+    --article-bg: var(--clr-lightest);
+    --item-shadow: rgba(0, 0, 0, 0.3);
+    --item-bg: transparent;
+}
+
+.dark-theme {
+    --body-bg: var(--clr-dark);
+    --body-txt: var(--clr-lightest);
+    --main-link: var(--clr-light-blue);
+    --article-bg: transparent;
+    --item-shadow: rgba(0, 0, 0, 0.5);
+    --item-bg: var(--clr-grey-green);
+}

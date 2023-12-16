@@ -1,0 +1,449 @@
+[
+    {
+        "title": "Filter Items",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-filter-items.png",
+        "description": "The page displays the contents of a .json file, then allows filtering by category. Filter transitions are effected via the 'startViewTransition' API. Images are lazy-loaded using the 'intersectionObserver' API.",
+        "features": [
+            "svg-sprite", 
+            "es6-modules", 
+            "html-css-javascript", 
+            "dark-mode", 
+            "intersection-observer-api", 
+            "lazy-loading", 
+            "css-imports", 
+            "css-nesting", 
+            "startviewtransition-api"
+        ],
+        "firstCommit": "15/12/2023",
+        "linkRepo": "https://github.com/chrisnajman/filter-items",
+        "linkPage": "https://chrisnajman.github.io/filter-items/"
+    },
+    {
+        "title": "Sticky Nav, Page Anchor Links",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-sticky-page-anchor-links.png",
+        "description": "Page navigation via anchor links in fixed nav. No set height required on the nav.",
+        "features": [
+            "html-css-javascript",
+            "es6-modules",
+            "svg-icons",
+            "dark-mode",
+            "css-nesting",
+            "css-imports",
+            "sticky-navigation-bar",
+            "resize-observer",
+            "intersection-observer"
+        ],
+        "firstCommit": "02/12/2023",
+        "linkRepo": "https://github.com/chrisnajman/sticky-nav-page-anchor-links",
+        "linkPage": "https://chrisnajman.github.io/sticky-nav-page-anchor-links/"
+    },
+    {
+        "title": "Set Current Page Menu Item",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-set-current-page-menu-item.png",
+        "description": "Dynamically highlight the primary menu link for the current page using the 'aria-current' attribute.",
+        "features": [
+            "aria-attributes",
+            "es6-modules",
+            "css-nesting",
+            "html-css-javascript"
+        ],
+        "firstCommit": "15/11/2023",
+        "linkRepo": "https://github.com/chrisnajman/set-current-page-menu-item",
+        "linkPage": "https://chrisnajman.github.io/set-current-page-menu-item/"
+    },
+    {
+        "title": "Sortable Dictionary (V2)",
+        "category": "apps",
+        "thumbnail": "./img/thumb-sortable-dictionary-v2.png",
+        "description": "Sortable dictionary with edit and delete functionality.",
+        "features": [
+            "html-css-javascript",
+            "html-template",
+            "localstorage",
+            "css-nesting",
+            "accessible-tables",
+            "dark-mode"
+        ],
+        "firstCommit": "09/11/2023",
+        "linkRepo": "https://github.com/chrisnajman/sortable-dictionary-v2",
+        "linkPage": "https://chrisnajman.github.io/sortable-dictionary-v2/"
+    },
+    {
+        "title": "CSS Horizontal Media Scroller",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-css-horizontal-media-scroller.png",
+        "description": "Scroll images and other media using CSS grid. Accessible.",
+        "features": [
+            "accessibility",
+            "css-grid",
+            "html-css",
+            "babel"
+        ],
+        "firstCommit": "20/10/2023",
+        "linkRepo": "https://github.com/chrisnajman/css-horizontal-media-scroller",
+        "linkPage": "https://chrisnajman.github.io/css-horizontal-media-scroller/"
+    },
+    {
+        "title": "Bookmark Landing Page",
+        "category": "frontend-challenges",
+        "thumbnail": "./img/thumb-bookmark-landing-page.png",
+        "description": "Response to the Frontend Mentor Bookmark landing page challenge.",
+        "features": [
+            "dark-mode",
+            "css-nesting",
+            "html-css-javascript"
+        ],
+        "firstCommit": "14/08/2023",
+        "linkRepo": "https://github.com/chrisnajman/bookmark-landing-page",
+        "linkPage": "https://chrisnajman.github.io/bookmark-landing-page/"
+    },
+    {
+        "title": "Job List",
+        "category": "frontend-challenges",
+        "thumbnail": "./img/thumb-job-list.png",
+        "description": "Job listings pulled in via .json file. Use of :has(), clamp() and nesting in CSS. Includes a dark mode theme switcher.",
+        "features": [
+            "css-nesting",
+            "json",
+            "dark-mode",
+            "html-css-javascript",
+            "html-template"
+        ],
+        "firstCommit": "26/07/2023",
+        "linkRepo": "https://github.com/chrisnajman/job-list",
+        "linkPage": "https://chrisnajman.github.io/job-list/"
+    },
+    {
+        "title": "Vite Basic Setup",
+        "category": "frameworks",
+        "thumbnail": "./img/thumb-vite-basic-setup.png",
+        "description": "Vite routing basic setup with easy publishing to Git Pages",
+        "features": [
+            "react",
+            "react-router-dom",
+            "github-pages",
+            "vitejs"
+        ],
+        "firstCommit": "27/06/2023",
+        "linkRepo": "https://github.com/chrisnajman/vite-basic",
+        "linkPage": "https://chrisnajman.github.io/vite-basic/"
+    },
+    {
+        "title": "REST Countries API",
+        "category": "frontend-challenges",
+        "thumbnail": "./img/thumb-rest-countries-api.png",
+        "description": "'REST Countries API with Colour Theme Switcher Challenge' by Frontend Mentor.",
+        "features": [
+            "countries-api",
+            "dark-mode",
+            "localstorage",
+            "accessibility",
+            "svg-icons",
+            "es6-modules",
+            "html-css-javascript",
+            "html-template"
+        ],
+        "firstCommit": "23/06/2023",
+        "linkRepo": "https://github.com/chrisnajman/rest-countries-api",
+        "linkPage": "https://chrisnajman.github.io/rest-countries-api/"
+    },
+    {
+        "title": "Acessible Dark Mode Toggle Button",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-accessibile-dark-mode-toggle-button.png",
+        "description": "An accessible dark mode toggle button using the ARIA-pressed attribute.",
+        "features": [
+            "accessibility",
+            "toggle-buttons",
+            "dark-mode",
+            "html-css-javascript"
+        ],
+        "firstCommit": "02/06/2023",
+        "linkRepo": "https://github.com/chrisnajman/accessible-dark-mode-toggle-button",
+        "linkPage": "https://chrisnajman.github.io/accessible-dark-mode-toggle-button/"
+    },
+    {
+        "title": "Multi-form Demo",
+        "category": "frontend-challenges",
+        "thumbnail": "./img/thumb-multi-form-demo.png",
+        "description": "Response to the Frontend Mentor Multistep Form Challenge in which input is passed from the forms on steps 1, 2 and 3, to Step 4 (Finishing Up) where a total price is calculated. Input choices can be changed before final submission.",
+        "features": [
+            "accessibility",
+            "html-css-javascript",
+            "es6-modules",
+            "startviewtransition-api"
+        ],
+        "firstCommit": "29/05/2023",
+        "linkRepo": "https://github.com/chrisnajman/multi-form-demo",
+        "linkPage": "https://chrisnajman.github.io/multi-form-demo/"
+    },
+    {
+        "title": "Webpack 5 Basic Setup",
+        "category": "frameworks",
+        "thumbnail": "./img/thumb-webpack-5-basic-setup.png",
+        "description": "Basic Webpack 5 Setup.",
+        "features": [
+            "babel",
+            "postcss",
+            "svg-sprites",
+            "dart-sass",
+            "webpack5",
+            "html-css-javascript"
+        ],
+        "firstCommit": "09/05/2023",
+        "linkRepo": "https://github.com/chrisnajman/webpack5-basic-setup",
+        "linkPage": "https://chrisnajman.github.io/webpack5-basic-setup/"
+    },
+    {
+        "title": "Frontend Practice Project (Webpack 5)",
+        "category": "frontend-challenges",
+        "thumbnail": "./img/thumb-front-end-practice-project-webpack-5.png",
+        "description": "A page built from the Abstract Project design at Frontend Practice using Webpack 5.",
+        "features": [
+            "es6-modules",
+            "json",
+            "babel",
+            "postcss",
+            "svg-sprites",
+            "html-css-javascript"
+        ],
+        "firstCommit": "09/05/2023",
+        "linkRepo": "https://github.com/chrisnajman/frontend-practice-project-webpack-5",
+        "linkPage": "https://chrisnajman.github.io/frontend-practice-project-webpack-5/"
+    },
+    {
+        "title": "One-page Site Template",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-one-page-site-template.png",
+        "description": "One-page site template with multiple elements, including accordion, carousel, modal and slide-in.",
+        "features": [
+            "webpack",
+            "postcss",
+            "accessibility",
+            "scss",
+            "babel-es6",
+            "html-css-javascript"
+        ],
+        "firstCommit": "04/05/2023",
+        "linkRepo": "https://github.com/chrisnajman/one-page-site-template",
+        "linkPage": "https://chrisnajman.github.io/one-page-site-template/"
+    },
+    {
+        "title": "SVG Sprites",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-svg-sprites.png",
+        "description": "Package multiple svgs into one external file.",
+        "features": [
+            "svg-sprites",
+            "html-css"
+        ],
+        "firstCommit": "21/04/2023",
+        "linkRepo": "https://github.com/chrisnajman/svg-sprite",
+        "linkPage": "https://chrisnajman.github.io/svg-sprite/"
+    },
+    {
+        "title": "Acessible Accordions",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-accessible-accordions.png",
+        "description": "Single and multiple item(s) accessible accordions.",
+        "features": [
+            "accessibility",
+            "html-css-javascript"
+        ],
+        "firstCommit": "17/04/2023",
+        "linkRepo": "https://github.com/chrisnajman/accessible-accordions",
+        "linkPage": "https://chrisnajman.github.io/accessible-accordions/"
+    },
+    {
+        "title": "Grid/Flexbox Page Layouts",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-grid-flexbox-page-layouts.png",
+        "description": "Three-row template using CSS Grid or Flexbox for laying out header, main and footer.",
+        "features": [
+            "css-grid",
+            "css-flexbox",
+            "html5"
+        ],
+        "firstCommit": "17/04/2023",
+        "linkRepo": "https://github.com/chrisnajman/grid-flexbox-page-layouts",
+        "linkPage": "https://chrisnajman.github.io/grid-flexbox-page-layouts/"
+    },
+    {
+        "title": "Full-bleed Alternate Rows",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-full-bleed-alternate-rows.png",
+        "description": "Using CSS box-shadow and clip-path to produce full bleed rows.",
+        "features": [
+            "css-grid-layout",
+            "fullbleed"
+        ],
+        "firstCommit": "10/03/2023",
+        "linkRepo": "https://github.com/chrisnajman/full-bleed-alternate-rows",
+        "linkPage": "https://chrisnajman.github.io/full-bleed-alternate-rows/"
+    },
+    {
+        "title": "Costs Calculator",
+        "category": "apps",
+        "thumbnail": "./img/thumb-costs-calculator.png",
+        "description": "A simple calculator that tracks how much you spend per day over a number of days. An average spend is given for the period.",
+        "features": [
+            "localstorage",
+            "html-css-javascript",
+            "html-template"
+        ],
+        "firstCommit": "24/02/2023",
+        "linkRepo": "https://github.com/chrisnajman/costs-calculator",
+        "linkPage": "https://chrisnajman.github.io/costs-calculator/"
+    },
+    {
+        "title": "Self-hosting Fonts",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-self-hosting-fonts.png",
+        "description": "How-to guide to self-host Google Fonts on a web page.",
+        "features": [
+            "fonts",
+            "html-css"
+        ],
+        "firstCommit": "03/02/2023",
+        "linkRepo": "https://github.com/chrisnajman/self-hosting-fonts",
+        "linkPage": "https://chrisnajman.github.io/self-hosting-fonts/"
+    },
+    {
+        "title": "Shopping Cart Modules Async",
+        "category": "course",
+        "thumbnail": "./img/thumb-shopping-cart-modules-async.png",
+        "description": "Shopping cart which persists over multiple pages (using session storage).",
+        "features": [
+            "async-await",
+            "session-storage",
+            "es6-modules",
+            "html-css-javascript",
+            "html-template"
+        ],
+        "firstCommit": "18/01/2023",
+        "linkRepo": "https://github.com/chrisnajman/shopping-cart-modules-async",
+        "linkPage": "https://chrisnajman.github.io/shopping-cart-modules-async/"
+    },
+    {
+        "title": "24 Hour Timer",
+        "category": "apps",
+        "thumbnail": "./img/thumb-24-hour-timer.png",
+        "description": "Set a time in hours/minutes/seconds and launch a countdown timer.",
+        "features": [
+            "html-css-javascript",
+            "html-template"
+        ],
+        "firstCommit": "08/01/2023",
+        "linkRepo": "https://github.com/chrisnajman/twenty-four-hour-timer",
+        "linkPage": "https://chrisnajman.github.io/twenty-four-hour-timer/"
+    },
+    {
+        "title": "Journal with Local Storage",
+        "category": "apps",
+        "thumbnail": "./img/thumb-journal-with-local-storage.png",
+        "description": "A simple journal that stores entries in local storage. Entries can be edited or deleted.",
+        "features": [
+            "localstorage",
+            "html-css-javascript",
+            "html-template"
+        ],
+        "firstCommit": "29/12/2022",
+        "linkRepo": "https://github.com/chrisnajman/journal-with-local-storage",
+        "linkPage": "https://chrisnajman.github.io/journal-with-local-storage/"
+    },
+    {
+        "title": "Sortable To Do List",
+        "category": "apps",
+        "thumbnail": "./img/thumb-sortable-to-do-list.png",
+        "description": "Sortable, drag-and-drop to do list, with edit, complete and delete functionality. Saves to local storage.",
+        "features": [
+            "drag-and-drop",
+            "localstorage",
+            "html-css-javascript",
+            "html-template"
+        ],
+        "firstCommit": "20/12/2022",
+        "linkRepo": "https://github.com/chrisnajman/sortable-todo-list",
+        "linkPage": "https://chrisnajman.github.io/sortable-todo-list/"
+    },
+    {
+        "title": "Sars COV-2 Covid-19 Vaccines",
+        "category": "biology",
+        "thumbnail": "./img/thumb-sars-cov-2-covid-19-vaccines.png",
+        "description": "SARS-CoV-2 and Oxford-Astrazeneca / Pfizer/BioNTech vaccine pathways. Also describes immune responses, both to the vaccine itself and to post-vaccination viral invasion.",
+        "features": [
+            "vaccines",
+            "covid-19",
+            "sars-cov-2",
+            "astrazeneca-oxford",
+            "pfizer-biontech",
+            "graphics",
+            "html-css-javascript"
+        ],
+        "firstCommit": "23/09/2021",
+        "linkRepo": "https://github.com/chrisnajman/sars-cov-2-covid-19-vaccines",
+        "linkPage": "https://chrisnajman.github.io/sars-cov-2-covid-19-vaccines/"
+    },
+    {
+        "title": "Baltimore Classification",
+        "category": "biology",
+        "thumbnail": "./img/thumb-baltimore-classification.png",
+        "description": "Slideshow of the seven classes of viral genomes as defined by the Baltimore Classification of Viruses. The slides show an example virus for each class.",
+        "features": [
+            "biology-education",
+            "slideshow",
+            "html-css-javascript",
+            "graphics"
+        ],
+        "firstCommit": "12/08/2021",
+        "linkRepo": "https://github.com/chrisnajman/baltimore-classification",
+        "linkPage": "https://chrisnajman.github.io/baltimore-classification/"
+    },
+    {
+        "title": "HIV",
+        "category": "biology",
+        "thumbnail": "./img/thumb-hiv.png",
+        "description": "The classification, structure and replication cycle of HIV, its effect on the infected host cell (Helper T-cell) and on the infected organism (AIDS).",
+        "features": [
+            "hiv",
+            "aids",
+            "graphics",
+            "html-css-javascript"
+        ],
+        "firstCommit": "28/07/2021",
+        "linkRepo": "https://github.com/chrisnajman/hiv",
+        "linkPage": "https://chrisnajman.github.io/hiv/"
+    },
+    {
+        "title": "Genetic Drift",
+        "category": "biology",
+        "thumbnail": "./img/thumb-genetic-drift.png",
+        "description": "A discussion of the the effects of genetic drift. The page includes a simulator for charting different genetic drift scenarios.",
+        "features": [
+            "genetics",
+            "simulation",
+            "population",
+            "html-css-javascript"
+        ],
+        "firstCommit": "10/04/2021",
+        "linkRepo": "https://github.com/chrisnajman/genetic-drift",
+        "linkPage": "https://chrisnajman.github.io/genetic-drift/"
+    },
+    {
+        "title": "Hardy-Weinberg Equilibrium Model",
+        "category": "biology",
+        "thumbnail": "./img/thumb-hardy-weinberg-equilibrium-model.png",
+        "description": "A discussion of the Hardy-Weinberg equilibrium model. Includes a calculator for getting genotype, allele and phenotype frequencies.",
+        "features": [
+            "genetics",
+            "calculator",
+            "html-css-javascript"
+        ],
+        "firstCommit": "12/03/2021",
+        "linkRepo": "https://github.com/chrisnajman/hardy-weinberg-equilibrium-model",
+        "linkPage": "https://chrisnajman.github.io/hardy-weinberg-equilibrium-model/"
+    }
+]

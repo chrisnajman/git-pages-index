@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index of Git Pages</title>
+    <meta name="description" content="Index page for all Chris Najman Git Pages websites.">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <script src="./js/index.js" type="module"></script>
+</head>
+
+<body>
+    <a href="#main-content" class="element-invisible element-focusable skip-link">Skip to main content</a>
+    <form id="theme-picker" class="theme-picker">
+        <button id="btn-theme-toggle" class="btn-theme-toggle" aria-pressed>
+            <svg role="img" class="theme-icon" id="theme-sun">
+                <use href="./img/sprite.svg#theme-sun"></use>
+            </svg>
+            <svg role="img" class="theme-icon hide" id="theme-moon">
+                <use href="./img/sprite.svg#theme-moon"></use>
+            </svg>
+            Dark Mode
+            <span class="btn-theme-state" aria-hidden="true"></span></button>
+
+    </form>
+    <div class="page-layout">
+        <header class="page-header" id="page-header">
+            <svg role="img" class="icon-logo">
+                <use href="./img/sprite.svg#icon-logo"></use>
+            </svg>
+            <h1>Index of Git Pages</h1>
+        </header>
+        <div class="filters-wrapper">
+            <form id="filters" class="filters">
+                <h2>Filters:</h2>
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="apps">Apps</button>
+                <button class="filter-btn" data-filter="snippets">Snippets</button>
+                <button class="filter-btn" data-filter="frontend-challenges">Challenges</button>
+                <button class="filter-btn" data-filter="frameworks">Frameworks</button>
+                <button class="filter-btn" data-filter="course">Course</button>
+                <button class="filter-btn" data-filter="biology">Biology</button>
+            </form>
+        </div>
+
+        <main class="main">
+            <article class="article" id="main-content" tabindex="0">
+                <h2 class="article-header" id="category-heading">All</h2>
+                <p id="loading-message" class="loading-message"></p>
+                <p id="category-intro">All Pages, most recent first.</p>
+                <ul class="items-list" id="items-list" role="list"></ul>
+                <div class="back-to-filters"><a href="#filters">Back to filters</a></div>
+            </article>
+        </main>
+        <footer class="page-footer">
+            <ul role="list">
+                <li><a href="https://github.com/chrisnajman/git-pages-index" target="_blank"
+                        rel="noopener noreferrer">GitHub Repository</a></li>
+            </ul>
+        </footer>
+    </div>
+    <template id="item-template">
+        <li class="item-container" data-category>
+            <div class="item-container-content">
+                <header class="item-header">
+                    <h3 data-title></h3>
+                    <div class="first-commit">
+                        <h4>First commit:</h4>
+                        <span data-commit></span>
+                    </div>
+                </header>
+
+                <div class="img-desc"><img data-src width="200" src="./img/placeholder.png" aria-hidden="true"
+                        class="lazy-loaded-image lazy" alt="">
+                    <div class="desc-features">
+                        <div>
+                            <h4>Description</h4>
+                            <p class="description" data-description></p>
+                        </div>
+                        <div class="features">
+                            <h4>Features</h4>
+                            <ul data-features role="list"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="links">
+                    <div>
+                        <h4 class="visually-hidden"><span data-title></span>:</h4>
+                        <a data-repo-link target="_blank" rel="noopener noreferrer" title="Opens in a new tab">Git
+                            repository</a>
+                    </div>
+                    <div>
+                        <h4 class="visually-hidden"><span data-title></span>:</h4>
+                        <a class="gitpage-link" data-page-link target="_blank" rel="noopener noreferrer"
+                            title="Opens in a new tab">Git
+                            Page</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+    </template>
+
+</body>
+
+</html>

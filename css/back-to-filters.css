@@ -1,0 +1,30 @@
+.back-to-filters {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+
+    &.show {
+        clip: auto;
+        height: auto;
+        overflow: visible;
+    }
+    & a {
+        background-color: var(--clr-blue);
+        color: white;
+        border-radius: 0.5rem 0.5rem 0 0;
+        font-weight: 600;
+        font-size: 2rem;
+        display: block;
+        padding: 0.5rem 1.5rem;
+        width: fit-content;
+        margin: 0 auto;
+
+        &::after {
+            content: " \2191";
+        }
+    }
+}

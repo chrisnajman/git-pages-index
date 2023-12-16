@@ -1,0 +1,108 @@
+.items-list {
+    display: var(--flex);
+    flex-direction: column;
+    gap: 4rem;
+
+    & .item-container-content {
+        display: var(--flex);
+        flex-direction: column;
+        gap: 3rem;
+        padding: 3rem;
+        box-shadow: -1px 4px 10px 0px var(--item-shadow);
+        background-color: var(--item-bg);
+        border-radius: 2rem;
+    }
+
+    & h3,
+    & h4 {
+        font-weight: 500;
+    }
+
+    & .item-header {
+        display: var(--flex);
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    & img {
+        border: 5px solid var(--clr-green);
+        border-radius: 0.5rem;
+    }
+
+    & .img-desc {
+        display: var(--flex);
+        align-items: flex-start;
+
+        gap: 2.5rem;
+
+        @media screen and (width <= 600px) {
+            flex-direction: column;
+        }
+    }
+
+    & .desc-features {
+        display: var(--flex);
+        flex-direction: column;
+        gap: 1.5rem;
+
+        & > div {
+            display: var(--flex);
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+    }
+
+    & .description {
+        text-wrap: balance;
+    }
+
+    & .features {
+        & ul {
+            display: var(--flex);
+            flex-wrap: wrap;
+            line-height: 1.2;
+        }
+
+        & li {
+            margin-right: 1rem;
+            &:last-of-type {
+                margin-right: 0;
+            }
+            &:after {
+                content: ", ";
+            }
+            &:last-of-type:after {
+                content: "";
+            }
+        }
+    }
+
+    & .first-commit {
+        display: var(--flex);
+        gap: 1rem;
+        align-items: baseline;
+    }
+
+    & .links {
+        display: var(--flex);
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+
+        & a::after {
+            content: " \27F6";
+        }
+
+        & .gitpage-link {
+            background-color: var(--clr-blue);
+            color: white;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            display: block;
+            padding: 0.5rem 1rem;
+        }
+    }
+}

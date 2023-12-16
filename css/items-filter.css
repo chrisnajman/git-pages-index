@@ -1,0 +1,55 @@
+.filters-wrapper {
+    background-color: var(--clr-darkest);
+    & .filters {
+        display: var(--flex);
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: baseline;
+        justify-content: center;
+        padding: 3.2rem 0;
+        padding-inline-start: 1rem;
+        padding-inline-end: 1rem;
+    }
+
+    & h2 {
+        font-size: 1.6rem;
+        color: var(--clr-lightest);
+    }
+
+    & button {
+        background-color: var(--clr-mid);
+        color: var(--clr-lightest);
+        font-weight: 600;
+        display: block;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+
+        &.active {
+            pointer-events: none;
+            background-color: var(--clr-lightest);
+            color: var(--clr-darkest);
+
+            &.red {
+                background-color: #f00;
+                color: var(--clr-lightest);
+            }
+            &.green {
+                background-color: #0f0;
+            }
+            &.blue {
+                background-color: #00f;
+                color: var(--clr-lightest);
+            }
+            &.orange {
+                background-color: #f90;
+            }
+            &.purple {
+                background-color: #609;
+                color: var(--clr-lightest);
+            }
+            &.yellow {
+                background-color: #fc0;
+            }
+        }
+    }
+}
