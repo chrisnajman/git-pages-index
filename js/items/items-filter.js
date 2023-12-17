@@ -44,12 +44,12 @@ export default function itemsFilter() {
     })
   }
 
-  function populateCategoryHeading(itemCategory) {
-    categoryHeading.textContent = itemCategory
+  function populateCategoryHeading(heading) {
+    categoryHeading.textContent = heading
   }
 
-  function populateArticleIntro(itemCategory) {
-    switch (itemCategory) {
+  function populateArticleIntro(intro) {
+    switch (intro) {
       case "all":
         categoryIntro.textContent = "All Pages, most recent first."
         break
