@@ -17,17 +17,22 @@
     }
 
     & button {
-        background-color: var(--clr-mid);
+        background-color: var(--clr-green);
         color: var(--clr-lightest);
         font-weight: 600;
         display: block;
         padding: 0.5rem 1rem;
         border-radius: 0.5rem;
 
+        &:hover {
+            opacity: 0.8;
+        }
+
         &.active {
             pointer-events: none;
             background-color: var(--clr-lightest);
             color: var(--clr-darkest);
+            opacity: 1;
 
             &.red {
                 background-color: #f00;

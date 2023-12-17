@@ -34,7 +34,7 @@ body {
     font-family: var(--font-sans);
     margin: 0;
     line-height: 1.5;
-    font-size: 1.6rem;
+    font-size: clamp(1.5rem, 1.35rem + 0.4vw, 1.8rem);
 }
 
 h1 {
@@ -74,10 +74,6 @@ h1,
 h2,
 h3 {
     text-wrap: balance;
-}
-
-p {
-    font-family: var(--font-serif);
 }
 
 img {
@@ -136,11 +132,11 @@ button {
     padding: 0 1.6rem 0;
 
     & a {
-        color: var(--main-link);
+        color: var(--clr-green);
         text-decoration: none;
 
         &:hover {
-            text-decoration: underline;
+            opacity: 0.8;
         }
     }
 }
@@ -191,9 +187,8 @@ button {
 }
 
 .article {
-    max-width: 80rem;
+    max-width: 100rem;
     margin: var(--horz-center);
-    background-color: var(--article-bg);
     padding: 3rem 0 8rem;
     display: var(--flex);
     flex-direction: column;

@@ -184,7 +184,7 @@
         "title": "Webpack 5 Basic Setup",
         "category": "frameworks",
         "thumbnail": "./img/thumb-webpack-5-basic-setup.png",
-        "description": "Basic Webpack 5 Setup.",
+        "description": "Webpack 5 Configuration.",
         "features": [
             "babel",
             "postcss",

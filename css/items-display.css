@@ -3,14 +3,19 @@
     flex-direction: column;
     gap: 4rem;
 
+    & .item-container {
+        box-shadow: -1px 4px 10px 0px var(--item-shadow);
+        border-radius: 2rem;
+        overflow: clip;
+    }
+
     & .item-container-content {
         display: var(--flex);
         flex-direction: column;
         gap: 3rem;
         padding: 3rem;
-        box-shadow: -1px 4px 10px 0px var(--item-shadow);
+        border-left: 10px solid var(--clr-green);
         background-color: var(--item-bg);
-        border-radius: 2rem;
     }
 
     & h3,
@@ -24,18 +29,23 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: baseline;
+
+        @media screen and (width <= 500px) {
+            flex-direction: column;
+        }
     }
 
     & img {
-        border: 5px solid var(--clr-green);
+        border: 6px solid var(--clr-green);
         border-radius: 0.5rem;
+        width: clamp(20rem, 17.5rem + 6.6667vw, 25rem);
     }
 
     & .img-desc {
         display: var(--flex);
         align-items: flex-start;
 
-        gap: 2.5rem;
+        gap: 3rem;
 
         @media screen and (width <= 600px) {
             flex-direction: column;
@@ -51,6 +61,16 @@
             display: var(--flex);
             flex-direction: column;
             gap: 0.5rem;
+        }
+
+        & .category {
+            display: var(--flex);
+            flex-direction: row;
+            align-items: baseline;
+
+            & p {
+                text-transform: capitalize;
+            }
         }
     }
 
@@ -91,16 +111,20 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: baseline;
+        font-weight: 600;
 
         & a::after {
             content: " \27F6";
         }
 
+        & .git-repo-link {
+            color: var(--item-repo-link);
+        }
+
         & .gitpage-link {
-            background-color: var(--clr-blue);
+            background-color: var(--clr-green);
             color: white;
             border-radius: 0.5rem;
-            font-weight: 600;
             display: block;
             padding: 0.5rem 1rem;
         }

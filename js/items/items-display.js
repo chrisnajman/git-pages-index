@@ -40,6 +40,13 @@ export default async function itemsDisplay() {
           featuresList.append(li)
         })
 
+        const itemCategory = ITEM_TPL.querySelector("[data-item-category]")
+        itemCategory.textContent = item.category
+
+        if (item.category === "frontend-challenges") {
+          itemCategory.textContent = "challenges"
+        }
+
         const firstCommit = ITEM_TPL.querySelector("[data-commit]")
         firstCommit.textContent = item.firstCommit
 

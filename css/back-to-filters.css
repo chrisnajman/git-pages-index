@@ -13,7 +13,7 @@
         overflow: visible;
     }
     & a {
-        background-color: var(--clr-blue);
+        background-color: var(--clr-green);
         color: white;
         border-radius: 0.5rem 0.5rem 0 0;
         font-weight: 600;
