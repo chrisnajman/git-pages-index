@@ -197,6 +197,7 @@ button {
     & h2 {
         text-align: center;
         margin: 1rem 0;
+        text-transform: capitalize;
     }
 
     & p:first-of-type {

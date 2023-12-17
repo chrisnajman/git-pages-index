@@ -11,20 +11,18 @@ export default function itemsFilter() {
       e.preventDefault()
       let itemCategory = e.target.getAttribute("data-filter")
 
-      let buttonText = e.target.textContent
-
       if (!document.startViewTransition) {
         updateActiveButton(e.target)
         filterItems(itemCategory)
-        populateCategoryHeading(buttonText)
-        populateArticleIntro(buttonText)
+        populateCategoryHeading(itemCategory)
+        populateArticleIntro(itemCategory)
       }
 
       document.startViewTransition(() => {
         updateActiveButton(e.target)
         filterItems(itemCategory)
-        populateCategoryHeading(buttonText)
-        populateArticleIntro(buttonText)
+        populateCategoryHeading(itemCategory)
+        populateArticleIntro(itemCategory)
       })
     })
   })
@@ -46,34 +44,34 @@ export default function itemsFilter() {
     })
   }
 
-  function populateCategoryHeading(buttonText) {
-    categoryHeading.textContent = buttonText
+  function populateCategoryHeading(itemCategory) {
+    categoryHeading.textContent = itemCategory
   }
 
-  function populateArticleIntro(buttonText) {
-    switch (buttonText) {
-      case "All":
+  function populateArticleIntro(itemCategory) {
+    switch (itemCategory) {
+      case "all":
         categoryIntro.textContent = "All Pages, most recent first."
         break
-      case "Apps":
+      case "apps":
         categoryIntro.textContent = "Useful web pages."
         break
-      case "Snippets":
+      case "snippets":
         categoryIntro.textContent =
           "HTML, CSS and JavaScript items that can be incorporated into other projects."
         break
-      case "Challenges":
+      case "challenges":
         categoryIntro.textContent =
           "Frontend challenges set by various websites."
         break
-      case "Frameworks":
+      case "frameworks":
         categoryIntro.textContent =
           "Configuring frameworks and getting them to display on the web page."
         break
-      case "Course":
+      case "course":
         categoryIntro.textContent = "Project(s) built from following a course."
         break
-      case "Biology":
+      case "biology":
         categoryIntro.textContent =
           "Having contracted Covid early on, I became interested in the mechanics of viruses."
         break

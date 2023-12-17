@@ -24,6 +24,9 @@ export default async function itemsDisplay() {
         const title = ITEM_TPL.querySelector("[data-title]")
         title.textContent = item.title
 
+        const firstCommit = ITEM_TPL.querySelector("[data-commit]")
+        firstCommit.textContent = item.firstCommit
+
         const thumbnail = ITEM_TPL.querySelector("[data-src]")
         thumbnail.setAttribute("data-src", item.thumbnail)
         lazyLoad(ITEM_TPL)
@@ -42,13 +45,6 @@ export default async function itemsDisplay() {
 
         const itemCategory = ITEM_TPL.querySelector("[data-item-category]")
         itemCategory.textContent = item.category
-
-        if (item.category === "frontend-challenges") {
-          itemCategory.textContent = "challenges"
-        }
-
-        const firstCommit = ITEM_TPL.querySelector("[data-commit]")
-        firstCommit.textContent = item.firstCommit
 
         const repoUrl = ITEM_TPL.querySelector("[data-repo-link]")
         repoUrl.href = item.linkRepo

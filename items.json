@@ -88,7 +88,7 @@
     },
     {
         "title": "Bookmark Landing Page",
-        "category": "frontend-challenges",
+        "category": "challenges",
         "thumbnail": "./img/thumb-bookmark-landing-page.png",
         "description": "Response to the Frontend Mentor Bookmark landing page challenge.",
         "features": [
@@ -102,7 +102,7 @@
     },
     {
         "title": "Job List",
-        "category": "frontend-challenges",
+        "category": "challenges",
         "thumbnail": "./img/thumb-job-list.png",
         "description": "Job listings pulled in via .json file. Use of :has(), clamp() and nesting in CSS. Includes a dark mode theme switcher.",
         "features": [
@@ -133,7 +133,7 @@
     },
     {
         "title": "REST Countries API",
-        "category": "frontend-challenges",
+        "category": "challenges",
         "thumbnail": "./img/thumb-rest-countries-api.png",
         "description": "'REST Countries API with Colour Theme Switcher Challenge' by Frontend Mentor.",
         "features": [
@@ -167,7 +167,7 @@
     },
     {
         "title": "Multi-form Demo",
-        "category": "frontend-challenges",
+        "category": "challenges",
         "thumbnail": "./img/thumb-multi-form-demo.png",
         "description": "Response to the Frontend Mentor Multistep Form Challenge in which input is passed from the forms on steps 1, 2 and 3, to Step 4 (Finishing Up) where a total price is calculated. Input choices can be changed before final submission.",
         "features": [
@@ -199,7 +199,7 @@
     },
     {
         "title": "Frontend Practice Project (Webpack 5)",
-        "category": "frontend-challenges",
+        "category": "challenges",
         "thumbnail": "./img/thumb-front-end-practice-project-webpack-5.png",
         "description": "A page built from the Abstract Project design at Frontend Practice using Webpack 5.",
         "features": [
