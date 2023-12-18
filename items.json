@@ -23,7 +23,7 @@
         "title": "Sticky Nav, Page Anchor Links",
         "category": "snippets",
         "thumbnail": "./img/thumb-sticky-page-anchor-links.png",
-        "description": "Page navigation via anchor links in fixed nav. No set height required on the nav.",
+        "description": "Page navigation via anchor links in sticky nav. No set height required on the nav.",
         "features": [
             "html-css-javascript",
             "es6-modules",
@@ -58,7 +58,7 @@
         "title": "Sortable Dictionary (V2)",
         "category": "apps",
         "thumbnail": "./img/thumb-sortable-dictionary-v2.png",
-        "description": "Sortable dictionary with edit and delete functionality.",
+        "description": "A sortable dictionary with edit and delete functionality. You can choose a language from a drop down list. If the required language isn't in the list you can add it to the entry later.",
         "features": [
             "html-css-javascript",
             "html-template",

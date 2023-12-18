@@ -51,10 +51,11 @@ export default function itemsFilter() {
   function populateArticleIntro(intro) {
     switch (intro) {
       case "all":
-        categoryIntro.textContent = "All Pages, most recent first."
+        categoryIntro.textContent = "All Git Pages, most recent first."
         break
       case "apps":
-        categoryIntro.textContent = "Useful web pages."
+        categoryIntro.textContent =
+          "Useful web pages that work both on a server and via the local file system."
         break
       case "snippets":
         categoryIntro.textContent =
@@ -62,7 +63,7 @@ export default function itemsFilter() {
         break
       case "challenges":
         categoryIntro.textContent =
-          "Frontend challenges set by various websites."
+          "My response to frontend challenges set by various websites."
         break
       case "frameworks":
         categoryIntro.textContent =
@@ -76,7 +77,7 @@ export default function itemsFilter() {
           "Having contracted Covid early on, I became interested in the mechanics of viruses."
         break
       default:
-        categoryIntro.textContent = "All Pages, most recent first."
+        categoryIntro.textContent = "All Git Pages, most recent first."
     }
   }
 }

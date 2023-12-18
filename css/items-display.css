@@ -108,10 +108,15 @@
     & .links {
         display: var(--flex);
         gap: 0.5rem;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         justify-content: space-between;
         align-items: baseline;
         font-weight: 600;
+
+        @media screen and (width < 360px) {
+            flex-direction: column;
+            gap: 2rem;
+        }
 
         & a::after {
             content: " \27F6";
@@ -119,6 +124,8 @@
 
         & .git-repo-link {
             color: var(--item-repo-link);
+            padding-bottom: 0.75rem;
+            border-bottom: 5px solid var(--item-repo-link);
         }
 
         & .gitpage-link {
