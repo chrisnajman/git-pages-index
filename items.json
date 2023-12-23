@@ -1,5 +1,23 @@
 [
     {
+        "title": "Accessible Dark / Light Mode Toggle",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-lightmode-darkmode.png",
+        "description": "Choose the default state (Light Mode or Dark Mode) of a page. Toggle between states.",
+        "features": [
+            "svg-icons", 
+            "svg-sprites", 
+            "html-css-javascript", 
+            "dark-mode", 
+            "light-mode", 
+            "css-imports", 
+            "css-nesting"
+        ],
+        "firstCommit": "23/12/2023",
+        "linkRepo": "https://github.com/chrisnajman/accessible-darkmode-lightmode-toggle-buttons/",
+        "linkPage": "https://chrisnajman.github.io/accessible-darkmode-lightmode-toggle-buttons/"
+    },
+    {
         "title": "Filter Items",
         "category": "snippets",
         "thumbnail": "./img/thumb-filter-items.png",
