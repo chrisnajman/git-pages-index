@@ -151,7 +151,7 @@
         "linkPage": "https://chrisnajman.github.io/rest-countries-api/"
     },
     {
-        "title": "Acessible Dark Mode Toggle Button",
+        "title": "Accessible Dark Mode Toggle Button",
         "category": "snippets",
         "thumbnail": "./img/thumb-accessibile-dark-mode-toggle-button.png",
         "description": "An accessible dark mode toggle button using the ARIA-pressed attribute.",
