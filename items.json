@@ -1,9 +1,50 @@
 [
     {
+        "title": "Custom Video Player",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-custom-video.png",
+        "description": "A custom-built video player providing a more tailored user experience compared to standard video players by implementing custom controls and functionalities.",
+        "features": [
+            "svg-icons", 
+            "svg-sprites", 
+            "html-css-javascript", 
+            "dark-mode", 
+            "light-mode", 
+            "css-imports", 
+            "css-nesting",
+            "custom-video-player",
+            "accessibility",
+            "js-modules"
+        ],
+        "firstCommit": "28/12/2023",
+        "linkRepo": "https://github.com/chrisnajman/custom-video-player",
+        "linkPage": "https://chrisnajman.github.io/custom-video-player/"
+    },
+    {
+        "title": "Scroll Page Watcher (CSS Only)",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-scroll-page-watcher.png",
+        "description": "If your browser supports 'animation-timeline: scroll()' CSS, a horizontal line will appear at the top of the screen as you scroll, indicating how far you have travelled down the page.",
+        "features": [
+            "svg-icons", 
+            "svg-sprites", 
+            "html-css-javascript", 
+            "dark-mode", 
+            "light-mode", 
+            "css-imports", 
+            "css-nesting",
+            "@supports",
+            "prefers-reduced-motion"
+        ],
+        "firstCommit": "27/12/2023",
+        "linkRepo": "https://github.com/chrisnajman/scroll-page-watcher",
+        "linkPage": "https://chrisnajman.github.io/scroll-page-watcher/"
+    },
+    {
         "title": "Accessible Dark / Light Mode Toggle",
         "category": "snippets",
         "thumbnail": "./img/thumb-lightmode-darkmode.png",
-        "description": "Choose the default state (Light Mode or Dark Mode) of a page. Toggle between states.",
+        "description": "Choose the default theme (Light Mode or Dark Mode) of a page. Toggle between themes.",
         "features": [
             "svg-icons", 
             "svg-sprites", 

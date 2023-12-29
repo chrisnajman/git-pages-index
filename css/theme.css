@@ -10,22 +10,24 @@
     --clr-darker: #222;
     --clr-darkest: black;
     --clr-code-bg: beige;
+    --clr-red-tile: rgb(205, 74, 10);
     --clr-warning: red;
 
     --highlight: var(--clr-light-blue);
+    --timeline: var(--clr-red-tile);
 
-    /* Light theme (default) */
-    --body-bg: var(--clr-light-green);
-    --body-txt: var(--clr-darkest);
-    --item-shadow: rgba(0, 0, 0, 0.3);
-    --item-bg: var(--clr-lightest);
-    --item-repo-link: var(--clr-green);
-}
-
-.dark-theme {
+    /* Dark theme (default) */
     --body-bg: var(--clr-dark);
     --body-txt: var(--clr-light-green);
     --item-shadow: rgba(0, 0, 0, 0.5);
     --item-bg: var(--clr-grey-green);
     --item-repo-link: var(--clr-light-green);
+}
+
+.light-theme {
+    --body-bg: var(--clr-light-green);
+    --body-txt: var(--clr-darkest);
+    --item-shadow: rgba(0, 0, 0, 0.3);
+    --item-bg: var(--clr-lightest);
+    --item-repo-link: var(--clr-green);
 }

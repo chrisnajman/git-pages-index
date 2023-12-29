@@ -24,11 +24,7 @@
     &:hover {
         border-bottom-color: var(--clr-lightest);
     }
-}
-
-[aria-pressed="false"] .btn-theme-state::after {
-    content: ": off";
-}
-[aria-pressed="true"] .btn-theme-state::after {
-    content: ": on";
+    & .mode {
+        margin-inline-start: 0.5rem;
+    }
 }

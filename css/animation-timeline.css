@@ -1,0 +1,28 @@
+@media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: scroll()) {
+        .body {
+            padding-top: 1rem;
+        }
+
+        .scroll-watcher {
+            height: 1rem;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1000;
+            background-color: var(--timeline);
+            scale: 0 1;
+            transform-origin: left;
+
+            animation: scroll-watcher linear;
+            animation-timeline: scroll();
+        }
+
+        @keyframes scroll-watcher {
+            to {
+                scale: 1 1;
+            }
+        }
+    }
+}

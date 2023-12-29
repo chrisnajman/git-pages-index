@@ -15,15 +15,15 @@
     <a href="#main-content" class="element-invisible element-focusable skip-link">Skip to main content</a>
     <form id="theme-picker" class="theme-picker">
         <button id="btn-theme-toggle" class="btn-theme-toggle" aria-pressed>
-            <svg role="img" class="theme-icon" id="theme-sun">
-                <use href="./img/sprite.svg#theme-sun"></use>
+            <svg role="img" class="theme-icon" id="theme-darkmode">
+                <use href="./img/sprite.svg#moon"></use>
             </svg>
-            <svg role="img" class="theme-icon hide" id="theme-moon">
-                <use href="./img/sprite.svg#theme-moon"></use>
+            <svg role="img" class="theme-icon hide" id="theme-lightmode">
+                <use href="./img/sprite.svg#sun"></use>
             </svg>
-            Dark Mode
-            <span class="btn-theme-state" aria-hidden="true"></span></button>
-
+            <span>Dark Mode:</span> <span id="mode" class="mode"></span>
+            <span class="btn-theme-state" aria-hidden="true"></span>
+        </button>
     </form>
     <div class="page-layout">
         <header class="page-header" id="page-header">
@@ -61,6 +61,7 @@
             </ul>
         </footer>
     </div>
+    <span class="scroll-watcher" aria-hidden="true"></span>
     <template id="item-template">
         <li class="item-container" data-category>
             <div class="item-container-content">

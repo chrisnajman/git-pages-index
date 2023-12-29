@@ -1,53 +1,64 @@
 export default function themeSwitcher() {
-  const LOCAL_STORAGE_PREFIX = "FILTER"
-  const DARKMODE_STORAGE_KEY = `${LOCAL_STORAGE_PREFIX}-darkmode-switcher`
+  const LOCAL_STORAGE_PREFIX = "DARKMODE-GITPAGES"
+  const MODE_STORAGE_KEY = `${LOCAL_STORAGE_PREFIX}-switcher`
 
   const btnThemeToggle = document.getElementById("btn-theme-toggle")
-  const themeSun = document.getElementById("theme-sun")
-  const themeMoon = document.getElementById("theme-moon")
+  const themeLightMode = document.getElementById("theme-lightmode")
+  const themeDarkMode = document.getElementById("theme-darkmode")
   const root = document.querySelector("html")
+  const mode = document.getElementById("mode")
 
   btnThemeToggle.addEventListener("click", (e) => {
     e.preventDefault()
-    root.classList.toggle("dark-theme")
+    root.classList.toggle("light-theme")
 
-    const isDarkMode = root.classList.contains("dark-theme")
+    const isLightMode = root.classList.contains("light-theme")
 
-    e.target.setAttribute("aria-pressed", String(isDarkMode))
+    e.target.setAttribute("aria-pressed", String(isLightMode))
 
-    if (isDarkMode) {
-      themeSun.classList.add("hide")
-      themeMoon.classList.remove("hide")
+    if (isLightMode) {
+      lightModeStyle()
     } else {
-      themeMoon.classList.add("hide")
-      themeSun.classList.remove("hide")
+      darkModeStyle()
     }
 
-    const sunClass = themeSun.classList.contains("hide") ? "hide" : ""
-    const moonClass = themeMoon.classList.contains("hide") ? "hide" : ""
+    const lightClass = themeLightMode.classList.contains("hide") ? "hide" : ""
+    const darkClass = themeDarkMode.classList.contains("hide") ? "hide" : ""
 
-    const themeItems = [isDarkMode, sunClass, moonClass]
-    localStorage.setItem(DARKMODE_STORAGE_KEY, JSON.stringify(themeItems))
+    const themeItems = [isLightMode, lightClass, darkClass]
+    localStorage.setItem(MODE_STORAGE_KEY, JSON.stringify(themeItems))
   })
 
   function setTheme() {
-    const activeTheme = JSON.parse(
-      localStorage.getItem(DARKMODE_STORAGE_KEY)
-    ) || [false, "", ""]
+    const activeTheme = JSON.parse(localStorage.getItem(MODE_STORAGE_KEY)) || [
+      false,
+      "",
+      "",
+    ]
 
-    const isDarkMode = activeTheme[0]
+    const isLightMode = activeTheme[0]
 
-    if (isDarkMode) {
-      root.classList.add("dark-theme")
-      themeSun.classList.add("hide")
-      themeMoon.classList.remove("hide")
+    if (isLightMode) {
+      root.classList.add("light-theme")
+      lightModeStyle()
     } else {
-      root.classList.remove("dark-theme")
-      themeMoon.classList.add("hide")
-      themeSun.classList.remove("hide")
+      root.classList.remove("light-theme")
+      darkModeStyle()
     }
 
-    btnThemeToggle.setAttribute("aria-pressed", String(isDarkMode))
+    btnThemeToggle.setAttribute("aria-pressed", String(isLightMode))
+  }
+
+  function lightModeStyle() {
+    themeDarkMode.classList.add("hide")
+    themeLightMode.classList.remove("hide")
+    mode.textContent = "off"
+  }
+
+  function darkModeStyle() {
+    themeLightMode.classList.add("hide")
+    themeDarkMode.classList.remove("hide")
+    mode.textContent = "on"
   }
 
   setTheme()
