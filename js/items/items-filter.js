@@ -74,7 +74,7 @@ export default function itemsFilter() {
         break
       case "biology":
         categoryIntro.textContent =
-          "Having contracted Covid early on, I became interested in the mechanics of viruses."
+          "After I recovered from Covid, I became interested in genetics and the mechanics of viruses."
         break
       default:
         categoryIntro.textContent = "All Git Pages, most recent first."

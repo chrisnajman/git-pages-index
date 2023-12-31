@@ -1,11 +1,11 @@
 @media (prefers-reduced-motion: no-preference) {
     @supports (animation-timeline: scroll()) {
         .body {
-            padding-top: 1rem;
+            padding-top: 0.5rem;
         }
 
         .scroll-watcher {
-            height: 1rem;
+            height: 0.5rem;
             position: fixed;
             top: 0;
             right: 0;

@@ -10,8 +10,10 @@
     --clr-darker: #222;
     --clr-darkest: black;
     --clr-code-bg: beige;
+    --clr-orange: orange;
     --clr-red-tile: rgb(205, 74, 10);
     --clr-warning: red;
+    --clr-transparent: transparent;
 
     --highlight: var(--clr-light-blue);
     --timeline: var(--clr-red-tile);
@@ -19,15 +21,35 @@
     /* Dark theme (default) */
     --body-bg: var(--clr-dark);
     --body-txt: var(--clr-light-green);
+    --header-footer-bg: var(--clr-darkest);
+    --header-footer-txt: var(--clr-light-green);
+    --filter-bg: var(--clr-darkest);
+    --filter-border: var(--clr-transparent);
+    --filter-txt: var(--clr-light-green);
+    --filter-active-bg: var(--clr-lightest);
+    --filter-active-txt: var(--clr-darkest);
+    --footer-border: var(--clr-transparent);
     --item-shadow: rgba(0, 0, 0, 0.5);
     --item-bg: var(--clr-grey-green);
     --item-repo-link: var(--clr-light-green);
+    --theme-icon: var(--clr-lightest);
+    --theme-txt: var(--clr-lightest);
 }
 
 .light-theme {
     --body-bg: var(--clr-light-green);
     --body-txt: var(--clr-darkest);
+    --header-footer-bg: var(--clr-lightest);
+    --header-footer-txt: var(--clr-darkest);
+    --filter-bg: var(--clr-lightest);
+    --filter-border: var(--clr-green);
+    --filter-txt: var(--clr-darkest);
+    --filter-active-bg: var(--clr-darkest);
+    --filter-active-txt: var(--clr-lightest);
+    --footer-border: var(--clr-green);
     --item-shadow: rgba(0, 0, 0, 0.3);
     --item-bg: var(--clr-lightest);
     --item-repo-link: var(--clr-green);
+    --theme-icon: var(--clr-orange);
+    --theme-txt: var(--clr-darkest);
 }

@@ -1,5 +1,9 @@
 .filters-wrapper {
-    background-color: var(--clr-darkest);
+    background-color: var(--filter-bg);
+    color: var(--filter-txt);
+    border-style: solid;
+    border-bottom-color: var(--filter-border);
+    border-width: 0 0 0.5rem;
     & .filters {
         display: var(--flex);
         flex-wrap: wrap;
@@ -13,7 +17,7 @@
 
     & h2 {
         font-size: 1.6rem;
-        color: var(--clr-lightest);
+        /* color: var(--clr-lightest); */
     }
 
     & button {
@@ -30,31 +34,9 @@
 
         &.active {
             pointer-events: none;
-            background-color: var(--clr-lightest);
-            color: var(--clr-darkest);
+            background-color: var(--filter-active-bg);
+            color: var(--filter-active-txt);
             opacity: 1;
-
-            &.red {
-                background-color: #f00;
-                color: var(--clr-lightest);
-            }
-            &.green {
-                background-color: #0f0;
-            }
-            &.blue {
-                background-color: #00f;
-                color: var(--clr-lightest);
-            }
-            &.orange {
-                background-color: #f90;
-            }
-            &.purple {
-                background-color: #609;
-                color: var(--clr-lightest);
-            }
-            &.yellow {
-                background-color: #fc0;
-            }
         }
     }
 }

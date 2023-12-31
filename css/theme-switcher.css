@@ -9,7 +9,7 @@
 .theme-icon {
     width: 2.4rem;
     height: 2.4rem;
-    fill: var(--clr-lightest);
+    fill: var(--theme-icon);
     margin-right: 0.5rem;
 }
 
@@ -17,12 +17,12 @@
     display: var(--flex);
     align-items: center;
     padding: 0.5rem 0.5rem 0.75rem 0;
-    border-bottom: 5px solid var(--clr-mid);
-    color: var(--clr-lightest);
+    border-bottom: 5px solid var(--clr-green);
+    color: var(--theme-txt);
     font-size: clamp(1.2rem, 1.1rem + 0.4444vw, 1.6rem);
 
     &:hover {
-        border-bottom-color: var(--clr-lightest);
+        opacity: 0.8;
     }
     & .mode {
         margin-inline-start: 0.5rem;
