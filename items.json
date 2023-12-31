@@ -1,5 +1,27 @@
 [
     {
+        "title": "Accessible Mobile Menu",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-mobile-menu.png",
+        "description": "A responsive mobile menu with accessibility features designed for both screen reader users and keyboard-based navigation.",
+        "features": [
+            "svg-icons", 
+            "svg-sprites", 
+            "svg-animations",
+            "html-css-javascript", 
+            "dark-mode-toggle", 
+            "css-imports", 
+            "css-nesting",
+            "accessibility",
+            "js-modules",
+            "aria-attributes",
+            "mobile-menu"
+        ],
+        "firstCommit": "31/12/2023",
+        "linkRepo": "https://github.com/chrisnajman/accessible-mobile-menu",
+        "linkPage": "https://chrisnajman.github.io/accessible-mobile-menu/"
+    },
+    {
         "title": "Custom Video Player",
         "category": "snippets",
         "thumbnail": "./img/thumb-custom-video.png",
