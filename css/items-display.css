@@ -129,7 +129,7 @@
         }
 
         & .gitpage-link {
-            background-color: var(--clr-green);
+            background-color: var(--clr-dark-green);
             color: white;
             border-radius: 0.5rem;
             display: block;
