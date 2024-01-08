@@ -13,8 +13,10 @@
         overflow: visible;
     }
     & a {
-        background-color: var(--clr-green);
+        background-color: var(--clr-dark-green);
         color: white;
+        border: 3px solid var(--clr-green);
+        border-bottom: none;
         border-radius: 0.5rem 0.5rem 0 0;
         font-weight: 600;
         font-size: 2rem;
