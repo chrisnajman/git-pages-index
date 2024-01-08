@@ -5,7 +5,7 @@
     border-bottom-color: var(--filter-border);
     border-width: 0 0 0.5rem;
     & .filters {
-        display: var(--flex);
+        display: flex;
         flex-wrap: wrap;
         gap: 2rem;
         align-items: baseline;
@@ -17,7 +17,6 @@
 
     & h2 {
         font-size: 1.6rem;
-        /* color: var(--clr-lightest); */
     }
 
     & button {

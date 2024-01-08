@@ -14,15 +14,6 @@ html:focus-within {
     scroll-behavior: smooth;
 }
 
-:root {
-    --font-sans: system-ui, sans-serif;
-    --font-serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
-    --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
-    --horz-center: 0 auto;
-    --flex: flex;
-    --grid: grid;
-}
-
 ul:empty,
 p:empty {
     display: none;
@@ -107,7 +98,7 @@ button {
 .page-layout {
     min-height: 100vh;
     min-height: 100dvh;
-    display: var(--grid);
+    display: grid;
     grid-template-rows: auto auto 1fr auto;
 }
 .page-header,
@@ -132,7 +123,7 @@ button {
     }
 
     & p {
-        margin: var(--horz-center);
+        margin: 0 auto;
     }
 }
 
@@ -185,14 +176,14 @@ button {
     fill: var(--header-footer-txt);
     width: 3.6rem;
     height: 3.6rem;
-    margin: var(--horz-center);
+    margin: 0 auto;
 }
 
 .article {
     max-width: 100rem;
-    margin: var(--horz-center);
+    margin: 0 auto;
     padding: 3rem 0 8rem;
-    display: var(--flex);
+    display: flex;
     flex-direction: column;
     gap: 3rem;
 
@@ -207,7 +198,7 @@ button {
     }
 
     & section {
-        display: var(--flex);
+        display: flex;
         flex-direction: column;
         gap: 2.5rem;
     }

@@ -1,4 +1,8 @@
 :root {
+    --font-sans: system-ui, sans-serif;
+    --font-serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+    --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+
     --clr-light-blue: rgb(135, 206, 235);
     --clr-blue: rgb(0, 117, 255);
     --clr-lightest: white;
@@ -32,7 +36,6 @@
     --footer-border: var(--clr-transparent);
     --item-shadow: rgba(0, 0, 0, 0.5);
     --item-bg: var(--clr-grey-green);
-    --item-repo-link: var(--clr-light-green);
     --theme-icon: var(--clr-lightest);
     --theme-txt: var(--clr-lightest);
 }
@@ -50,7 +53,6 @@
     --footer-border: var(--clr-green);
     --item-shadow: rgba(0, 0, 0, 0.3);
     --item-bg: var(--clr-lightest);
-    --item-repo-link: var(--clr-green);
     --theme-icon: var(--clr-orange);
     --theme-txt: var(--clr-darkest);
 }

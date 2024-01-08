@@ -1,5 +1,5 @@
 .items-list {
-    display: var(--flex);
+    display: flex;
     flex-direction: column;
     gap: 4rem;
 
@@ -10,7 +10,7 @@
     }
 
     & .item-container-content {
-        display: var(--flex);
+        display: flex;
         flex-direction: column;
         gap: 3rem;
         padding: 3rem;
@@ -24,7 +24,7 @@
     }
 
     & .item-header {
-        display: var(--flex);
+        display: flex;
         gap: 0.5rem;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -42,7 +42,7 @@
     }
 
     & .img-desc {
-        display: var(--flex);
+        display: flex;
         align-items: flex-start;
 
         gap: 3rem;
@@ -53,18 +53,18 @@
     }
 
     & .desc-features {
-        display: var(--flex);
+        display: flex;
         flex-direction: column;
         gap: 1.5rem;
 
         & > div {
-            display: var(--flex);
+            display: flex;
             flex-direction: column;
             gap: 0.5rem;
         }
 
         & .category {
-            display: var(--flex);
+            display: flex;
             flex-direction: row;
             align-items: baseline;
 
@@ -80,7 +80,7 @@
 
     & .features {
         & ul {
-            display: var(--flex);
+            display: flex;
             flex-wrap: wrap;
             line-height: 1.2;
         }
@@ -100,15 +100,14 @@
     }
 
     & .first-commit {
-        display: var(--flex);
+        display: flex;
         gap: 1rem;
         align-items: baseline;
     }
 
     & .links {
-        display: var(--flex);
+        display: flex;
         gap: 0.5rem;
-        /* flex-wrap: wrap; */
         justify-content: space-between;
         align-items: baseline;
         font-weight: 600;
@@ -121,16 +120,10 @@
         & a::after {
             content: " \27F6";
         }
-
-        & .git-repo-link {
-            color: var(--item-repo-link);
-            padding-bottom: 0.75rem;
-            border-bottom: 5px solid var(--item-repo-link);
-        }
-
-        & .gitpage-link {
+        & .git-link {
             background-color: var(--clr-dark-green);
-            color: white;
+            color: var(--clr-lightest);
+            border: 3px solid var(--clr-green);
             border-radius: 0.5rem;
             display: block;
             padding: 0.5rem 1rem;

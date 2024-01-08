@@ -21,8 +21,10 @@ export default async function itemsDisplay() {
         const category = ITEM_TPL.querySelector("[data-category]")
         category.setAttribute("data-category", item.category)
 
-        const title = ITEM_TPL.querySelector("[data-title]")
-        title.textContent = item.title
+        const titles = ITEM_TPL.querySelectorAll("[data-title]")
+        titles.forEach((title) => {
+          title.textContent = item.title
+        })
 
         const firstCommit = ITEM_TPL.querySelector("[data-commit]")
         firstCommit.textContent = item.firstCommit
