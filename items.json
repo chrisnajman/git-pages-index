@@ -36,7 +36,9 @@
             "css-nesting",
             "custom-video-player",
             "accessibility",
-            "js-modules"
+            "js-modules",
+            "video-transcription",
+            "video-captions"
         ],
         "firstCommit": "28/12/2023",
         "linkRepo": "https://github.com/chrisnajman/custom-video-player",

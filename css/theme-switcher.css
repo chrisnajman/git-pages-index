@@ -3,6 +3,7 @@
     top: 0.5rem;
     right: 1rem;
     z-index: 300;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
