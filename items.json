@@ -1,5 +1,27 @@
 [
     {
+        "title": "Loader",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-loader.png",
+        "description": "CSS and JavaScript page loader which displays a loading animation or message, depending on the user's preferences.",
+        "features": [
+            "svg-icons", 
+            "svg-sprites", 
+            "svg-animations",            
+            "html-css-javascript", 
+            "dark-mode-toggle", 
+            "css-imports", 
+            "css-nesting",
+            "accessibility",
+            "js-modules",
+            "aria-attributes",
+            "prefers-reduced-motion"
+        ],
+        "firstCommit": "15/01/2024",
+        "linkRepo": "https://github.com/chrisnajman/loader",
+        "linkPage": "https://chrisnajman.github.io/loader/"
+    },
+    {
         "title": "Accessible Mobile Menu",
         "category": "snippets",
         "thumbnail": "./img/thumb-mobile-menu.png",
