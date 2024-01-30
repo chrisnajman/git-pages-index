@@ -1,5 +1,30 @@
 [
     {
+        "title": "Costs Calculator (V2)",
+        "category": "apps",
+        "thumbnail": "./img/thumb-costs-calculator-v2.png",
+        "description": "Record and save your daily spend and see the average over a number of days. (This is an upgrading and updating of an earlier app.)",
+        "features": [
+            "accessible-tables",
+            "accessibility-testing",
+            "aria-attributes",
+            "css-imports",
+            "css-nesting",
+            "dark-mode-toggle",
+            "html-css-javascript",
+            "js-modules",
+            "prefers-reduced-motion",
+            "svg-icons",
+            "svg-sprites",
+            "html-template",
+            "localstorage",
+            "sort"
+        ],
+        "firstCommit": "21/01/2024",
+        "linkRepo": "https://github.com/chrisnajman/costs-calculator-v2",
+        "linkPage": "https://chrisnajman.github.io/costs-calculator-v2/"
+    },
+    {
         "title": "Loader",
         "category": "snippets",
         "thumbnail": "./img/thumb-loader.png",
