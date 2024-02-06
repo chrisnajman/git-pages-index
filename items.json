@@ -460,7 +460,7 @@
     {
         "title": "24 Hour Timer",
         "category": "apps",
-        "thumbnail": "./img/thumb-24-hour-timer.png",
+        "thumbnail": "./img/thumb-24hour-timer.png",
         "description": "Set a time in hours/minutes/seconds and launch a countdown timer.",
         "features": [
             "html-css-javascript",
