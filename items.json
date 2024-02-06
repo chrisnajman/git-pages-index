@@ -464,7 +464,14 @@
         "description": "Set a time in hours/minutes/seconds and launch a countdown timer.",
         "features": [
             "html-css-javascript",
-            "html-template"
+            "es6-modules",
+            "html-template",
+            "css-imports",
+            "css-nesting",
+            "dark-mode-toggle",
+            "js-modules",
+            "svg-icons",
+            "svg-sprites"
         ],
         "firstCommit": "08/01/2023",
         "linkRepo": "https://github.com/chrisnajman/twenty-four-hour-timer",
