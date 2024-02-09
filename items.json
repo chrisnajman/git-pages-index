@@ -1,5 +1,19 @@
 [
     {
+        "title": "SVG Styling",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-svg-styling.png",
+        "description": "CSS limitations when styling SVGs.",
+        "features": [
+            "html-css-javascript",
+            "svg-icons",
+            "svg-sprites"
+        ],
+        "firstCommit": "09/02/2024",
+        "linkRepo": "https://github.com/chrisnajman/styling-svgs",
+        "linkPage": "https://chrisnajman.github.io/styling-svgs/"
+    },
+    {
         "title": "Costs Calculator (V2)",
         "category": "apps",
         "thumbnail": "./img/thumb-costs-calculator-v2.png",
