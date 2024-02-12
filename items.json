@@ -40,7 +40,7 @@
     {
         "title": "Costs Calculator (V2)",
         "category": "apps",
-        "thumbnail": "./img/thumb-costs-calculator-v2.png",
+        "thumbnail": "./img/thumb-calculate-costs-v2.png",
         "description": "Record and save your daily spend and see the average over a number of days. (This is an upgrading and updating of an earlier app.)",
         "features": [
             "accessible-tables",
@@ -109,7 +109,7 @@
     {
         "title": "Custom Video Player",
         "category": "snippets",
-        "thumbnail": "./img/thumb-custom-video.png",
+        "thumbnail": "./img/thumb-video-custom.png",
         "description": "A custom-built video player providing a more tailored user experience compared to standard video players by implementing custom controls and functionalities.",
         "features": [
             "svg-icons", 
@@ -152,7 +152,7 @@
     {
         "title": "Accessible Dark / Light Mode Toggle",
         "category": "snippets",
-        "thumbnail": "./img/thumb-lightmode-darkmode.png",
+        "thumbnail": "./img/thumb-light-darkmode.png",
         "description": "Choose the default theme (Light Mode or Dark Mode) of a page. Toggle between themes.",
         "features": [
             "svg-icons", 
@@ -170,7 +170,7 @@
     {
         "title": "Filter Items",
         "category": "snippets",
-        "thumbnail": "./img/thumb-filter-items.png",
+        "thumbnail": "./img/thumb-items-filter.png",
         "description": "The page displays the contents of a .json file, then allows filtering by category. Filter transitions are effected via the 'startViewTransition' API. Images are lazy-loaded using the 'intersectionObserver' API.",
         "features": [
             "svg-sprite", 
