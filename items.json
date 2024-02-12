@@ -1,5 +1,29 @@
 [
     {
+        "title": "Sortable To-do List (V2)",
+        "category": "apps",
+        "thumbnail": "./img/thumb-todo-list-v2.png",
+        "description": "Edit, complete or delete to-do tasks. You can also reorder to-dos, if they get out of synch. (This is an upgrading and updating of an earlier app.)",
+        "features": [
+            "html-css-javascript",
+            "svg-icons",
+            "svg-sprites",
+            "accessibility-testing",
+            "aria-attributes",
+            "css-imports",
+            "css-nesting",
+            "dark-mode-toggle",
+            "js-modules",
+            "prefers-reduced-motion",
+            "html-template",
+            "localstorage",
+            "sort"
+        ],
+        "firstCommit": "12/02/2024",
+        "linkRepo": "https://github.com/chrisnajman/to-do-list-v2",
+        "linkPage": "https://chrisnajman.github.io/to-do-list-v2/"
+    },
+    {
         "title": "SVG Styling",
         "category": "snippets",
         "thumbnail": "./img/thumb-svg-styling.png",
