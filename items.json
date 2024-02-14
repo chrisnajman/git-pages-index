@@ -190,7 +190,7 @@
     {
         "title": "Sticky Nav, Page Anchor Links",
         "category": "snippets",
-        "thumbnail": "./img/thumb-sticky-page-anchor-links.png",
+        "thumbnail": "./img/thumb-sticky-nav-page-anchor.png",
         "description": "Page navigation via anchor links in sticky nav. No set height required on the nav.",
         "features": [
             "html-css-javascript",
