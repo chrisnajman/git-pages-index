@@ -132,7 +132,7 @@
     {
         "title": "Scroll Page Watcher (CSS Only)",
         "category": "snippets",
-        "thumbnail": "./img/thumb-scroll-page-watcher.png",
+        "thumbnail": "./img/thumb-page-scroll-watcher.png",
         "description": "If your browser supports 'animation-timeline: scroll()' CSS, a horizontal line will appear at the top of the screen as you scroll, indicating how far you have travelled down the page.",
         "features": [
             "svg-icons", 
