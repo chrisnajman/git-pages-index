@@ -1,5 +1,28 @@
 [
     {
+        "title": "{Choose Language} Dictionary",
+        "category": "apps",
+        "thumbnail": "./img/thumb-choose-language.png",
+        "description": "Built with React. Select a language then create a dictionary. You can add, edit and delete entries.",
+        "features": [
+        "reactjs",
+        "vite",
+            "html-css-javascript",
+            "svg-icons",
+            "accessibility-testing",
+            "aria-attributes",
+            "css-imports",
+            "css-nesting",
+            "dark-mode-toggle",
+            "prefers-reduced-motion",
+            "localstorage",
+            "sort"
+        ],
+        "firstCommit": "26/03/2024",
+        "linkRepo": "https://github.com/chrisnajman/choose-language-dictionary",
+        "linkPage": "https://chrisnajman.github.io/choose-language-dictionary/"
+    },
+    {
         "title": "Sortable To-do List (V2)",
         "category": "apps",
         "thumbnail": "./img/thumb-todo-list-v2.png",

@@ -55,7 +55,7 @@ export default function itemsFilter() {
         break
       case "apps":
         categoryIntro.textContent =
-          "Useful web pages that work both on a server and the local file system."
+          "Useful web pages that work both on a server, and the local file system (excluding React projects)."
         break
       case "snippets":
         categoryIntro.textContent =
