@@ -308,19 +308,19 @@
         "linkPage": "https://chrisnajman.github.io/job-list/"
     },
     {
-        "title": "Vite Basic Setup",
+        "title": "Vite Basic Setup with Routing",
         "category": "frameworks",
         "thumbnail": "./img/thumb-vite-basic-setup.png",
-        "description": "Vite routing basic setup with easy publishing to Git Pages",
+        "description": "Vite routing setup with easy publish to Git Pages. Includes a custom 404 page, and dynamic sub-routes.",
         "features": [
             "react",
             "react-router-dom",
-            "github-pages",
+            "github-pages-website",
             "vitejs"
         ],
-        "firstCommit": "27/06/2023",
-        "linkRepo": "https://github.com/chrisnajman/vite-basic",
-        "linkPage": "https://chrisnajman.github.io/vite-basic/"
+        "firstCommit": "31/03/2024",
+        "linkRepo": "https://github.com/chrisnajman/vite-basic-with-routing",
+        "linkPage": "https://chrisnajman.github.io/vite-basic-with-routing/"
     },
     {
         "title": "REST Countries API",
