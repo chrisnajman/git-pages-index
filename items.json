@@ -2,7 +2,7 @@
     {
         "title": "Vite Basic Setup with Routing",
         "category": "frameworks",
-        "thumbnail": "./img/thumb-vite-basic-setup.png",
+        "thumbnail": "./img/thumb-vite-routing-basic-setup.png",
         "description": "Vite routing setup with easy publish to Git Pages. Includes a custom 404 page, and dynamic sub-routes.",
         "features": [
             "react",
