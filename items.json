@@ -1,5 +1,20 @@
 [
     {
+        "title": "React Router Tutorial",
+        "category": "course",
+        "thumbnail": "./img/thumb-react-router-tutorial.png",
+        "description": "A contacts demo built from the React Router tutorial, modified to allow deployment to Git Pages.",
+        "features": [
+            "react",
+            "react-router-dom",
+            "github-pages-website",
+            "vitejs"
+        ],
+        "firstCommit": "03/04/2024",
+        "linkRepo": "https://github.com/chrisnajman/react-router-tutorial",
+        "linkPage": "https://chrisnajman.github.io/react-router-tutorial/"
+    },
+    {
         "title": "Vite Basic Setup with Routing",
         "category": "frameworks",
         "thumbnail": "./img/thumb-vite-routing-basic-setup.png",
