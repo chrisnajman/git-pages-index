@@ -70,7 +70,7 @@ export default function itemsFilter() {
           "Configuring frameworks and getting them to display on the web page."
         break
       case "course":
-        categoryIntro.textContent = "Project(s) built from following a course."
+        categoryIntro.textContent = "Projects built from following a course."
         break
       case "biology":
         categoryIntro.textContent =

@@ -1,5 +1,24 @@
 [
     {
+        "title": "Scrimba AirBnb",
+        "category": "course",
+        "thumbnail": "./img/thumb-scrimba-airbnb.png",
+        "description": "A simple Scrimba React project, practising passing props from a parent to a child component.",
+        "features": [
+            "reactjs",
+            "github-pages-website",
+            "vitejs",
+            "props",
+            "html-css-javascript",
+            "css-nesting",
+            "scrimba",
+            "figma"
+        ],
+        "firstCommit": "16/04/2024",
+        "linkRepo": "https://github.com/chrisnajman/scrimba-airbnb",
+        "linkPage": "https://chrisnajman.github.io/scrimba-airbnb/"
+    },
+    {
         "title": "React Router Tutorial",
         "category": "course",
         "thumbnail": "./img/thumb-react-router-tutorial.png",
