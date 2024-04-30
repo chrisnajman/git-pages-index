@@ -3,7 +3,7 @@
         "title": "React Form",
         "category": "course",
         "thumbnail": "./img/thumb-react-form.png",
-        "description": "Form built in React. On submission, data is printed to an output container. Also, practises passing state from a parent to a child component via props.",
+        "description": "Extension of Scrimba 'React Forms' tutorials. On submission, data is printed to an output container. Also, practises passing state from a parent to child components via props.",
         "features": [
             "reactjs",
             "github-pages-website",
