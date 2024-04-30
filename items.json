@@ -1,5 +1,27 @@
 [
     {
+        "title": "React Form",
+        "category": "course",
+        "thumbnail": "./img/thumb-react-form.png",
+        "description": "Form built in React. On submission, data is printed to an output container. Also, practises passing state from a parent to a child component via props.",
+        "features": [
+            "reactjs",
+            "github-pages-website",
+            "vitejs",
+            "props",
+            "state",
+            "html-css-javascript",
+            "css-nesting",
+            "scrimba",
+            "controlled-components",
+            "form-elements"
+            
+        ],
+        "firstCommit": "30/04/2024",
+        "linkRepo": "https://github.com/chrisnajman/react-form",
+        "linkPage": "https://chrisnajman.github.io/react-form/"
+    },
+    {
         "title": "Scrimba AirBnb",
         "category": "course",
         "thumbnail": "./img/thumb-scrimba-airbnb.png",
