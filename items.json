@@ -1,5 +1,30 @@
 [
     {
+        "title": "Meme Generator",
+        "category": "course",
+        "thumbnail": "./img/thumb-meme-generator.png",
+        "description": "Built from Scrimba's 'Build a meme generator' tutorials. Dynamically add text to the top and bottom of the image. Click the button to generate a new image.",
+        "features": [
+            "reactjs",
+            "github-pages-website",
+            "vitejs",
+            "props",
+            "state",
+            "useeffect-hook",
+            "async-await",
+            "api",
+            "html-css-javascript",
+            "css-nesting",
+            "scrimba",
+            "controlled-components",
+            "form-elements"
+            
+        ],
+        "firstCommit": "02/05/2024",
+        "linkRepo": "https://github.com/chrisnajman/meme-generator",
+        "linkPage": "https://chrisnajman.github.io/meme-generator/"
+    },
+    {
         "title": "React Form",
         "category": "course",
         "thumbnail": "./img/thumb-react-form.png",
