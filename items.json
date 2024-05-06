@@ -1,5 +1,25 @@
 [
     {
+        "title": "React Layout Template",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-react-layout-template.png",
+        "description": "App template with layout component. Includes simple theme-switcher.",
+        "features": [
+            "reactjs",
+            "github-pages-website",
+            "vitejs",
+            "props",
+            "state",
+            "useeffect-hook",
+            "html-css-javascript",
+            "layout-component"
+            
+        ],
+        "firstCommit": "06/05/2024",
+        "linkRepo": "https://github.com/chrisnajman/react-layout-template",
+        "linkPage": "https://chrisnajman.github.io/react-layout-template/"
+    },
+    {
         "title": "Meme Generator",
         "category": "course",
         "thumbnail": "./img/thumb-meme-generator.png",
