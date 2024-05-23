@@ -3,7 +3,7 @@
         "title": "Markdown Notes App (Local Storage)",
         "category": "course",
         "thumbnail": "./img/thumb-markdown-notes-app-ls.png",
-        "description": "Create, edit, preview, save, and delete Markdown notes.",
+        "description": "Scrimba Tutorial: Notes App. Create, edit, preview, save, and delete Markdown notes.",
         "features": [
             "reactjs",
             "react-icons",
