@@ -1,5 +1,32 @@
 [
     {
+        "title": "Markdown Notes App (Local Storage)",
+        "category": "course",
+        "thumbnail": "./img/thumb-markdown-notes-app-ls.png",
+        "description": "Create, edit, preview, save, and delete Markdown notes.",
+        "features": [
+            "reactjs",
+            "react-icons",
+            "react-split",
+            "react-mde",
+            "nanoid",
+            "darkmode",
+            "scrimba",
+            "github-pages-website",
+            "localstorage",
+            "vitejs",
+            "props",
+            "state",
+            "useeffect-hook",
+            "html-css-javascript",
+            "layout-component"
+            
+        ],
+        "firstCommit": "23/05/2024",
+        "linkRepo": "https://github.com/chrisnajman/markdown-notes-app-localstorage",
+        "linkPage": "https://chrisnajman.github.io/markdown-notes-app-localstorage/"
+    },
+    {
         "title": "React Layout Template",
         "category": "snippets",
         "thumbnail": "./img/thumb-react-layout-template.png",
