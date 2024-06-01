@@ -1,5 +1,29 @@
 [
     {
+        "title": "Tenzies Game",
+        "category": "course",
+        "thumbnail": "./img/thumb-tenzies-game.png",
+        "description": "Scrimba Tutorial, Tenzies dice game. Roll dice, click a die to freeze it, then roll again until all dies are the same.",
+        "features": [
+            "reactjs",
+            "react-icons",
+            "react-confetti",
+            "nanoid",
+            "darkmode",
+            "scrimba",
+            "github-pages-website",
+            "vitejs",
+            "props",
+            "state",
+            "useeffect-hook",
+            "html-css-javascript",
+            "layout-component"
+        ],
+        "firstCommit": "01/06/2024",
+        "linkRepo": "https://github.com/chrisnajman/tenzies-game",
+        "linkPage": "https://chrisnajman.github.io/tenzies-game/"
+    },
+    {
         "title": "Markdown Notes App (Local Storage)",
         "category": "course",
         "thumbnail": "./img/thumb-markdown-notes-app-ls.png",
