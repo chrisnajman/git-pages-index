@@ -1,5 +1,32 @@
 [
     {
+        "title": "VanLife",
+        "category": "course",
+        "thumbnail": "./img/thumb-vanlife.png",
+        "description": "Demo site using React Router Dom V6. Built from following Scrimba's 'Learn React Router 6' course.",
+        "features": [
+            "reactjs", 
+            "await", 
+            "loaders", 
+            "deferred-rendering", 
+            "html-css-javascript", 
+            "outlet", 
+            "protected-routes", 
+            "suspense", 
+            "nested-routes", 
+            "route-params", 
+            "vitejs", 
+            "react-router-dom-v6", 
+            "useloaderdata", 
+            "uselocation-hook", 
+            "useactiondata", 
+            "usesearchparams-hook"
+        ],
+        "firstCommit": "03/06/2024",
+        "linkRepo": "https://github.com/chrisnajman/vanlife",
+        "linkPage": "https://chrisnajman.github.io/vanlife/"
+    },
+    {
         "title": "Tenzies Game",
         "category": "course",
         "thumbnail": "./img/thumb-tenzies-game.png",
