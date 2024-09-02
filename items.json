@@ -1,5 +1,47 @@
 [
     {
+        "title": "Blackjack",
+        "category": "apps",
+        "thumbnail": "./img/thumb-blackjack.png",
+        "description": "Accessible Blackjack Game",
+        "features": [
+            "es6-modules", 
+            "html-css-javascript", 
+            "accessibility"
+        ],
+        "firstCommit": "01/09/2024",
+        "linkRepo": "https://github.com/chrisnajman/blackjack",
+        "linkPage": "https://chrisnajman.github.io/blackjack/"
+    },
+    {
+        "title": "RGB",
+        "category": "course",
+        "thumbnail": "./img/thumb-rgb.png",
+        "description": "Filter colours to see their CSS values. Demo site using React Router Dom V6. Built from following Scrimba's 'Learn React Router 6' course. This is a pared-down version of 'VanLife'",
+        "features": [
+            "reactjs", 
+            "await", 
+            "loaders", 
+            "deferred-rendering", 
+            "html-css-javascript", 
+            "outlet", 
+            "protected-routes", 
+            "suspense", 
+            "nested-routes", 
+            "route-params", 
+            "vitejs", 
+            "react-router-dom-v6", 
+            "useloaderdata", 
+            "uselocation-hook", 
+            "useactiondata", 
+            "usesearchparams-hook",
+             "accessibility"
+        ],
+        "firstCommit": "11/08/2024",
+        "linkRepo": "https://github.com/chrisnajman/rgb",
+        "linkPage": "https://chrisnajman.github.io/rgb/"
+    },
+    {
         "title": "VanLife",
         "category": "course",
         "thumbnail": "./img/thumb-vanlife.png",
@@ -20,7 +62,8 @@
             "useloaderdata", 
             "uselocation-hook", 
             "useactiondata", 
-            "usesearchparams-hook"
+            "usesearchparams-hook",
+             "accessibility"
         ],
         "firstCommit": "03/06/2024",
         "linkRepo": "https://github.com/chrisnajman/vanlife",
