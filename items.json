@@ -1,5 +1,15 @@
 [
     {
+        "title": "Cookie Cutter",
+        "category": "apps",
+        "thumbnail": "./img/thumb-cookie-cutter.png",
+        "description": "Home page for the Cookie Cutter Chrome Extension",
+        "features": [ "html-css-javascript"],
+        "firstCommit": "19/09/2024",
+        "linkRepo": "https://github.com/chrisnajman/cookie-cutter-chrome-extension",
+        "linkPage": "https://chrisnajman.github.io/cookie-cutter-chrome-extension/"
+    },
+    {
         "title": "Blackjack",
         "category": "apps",
         "thumbnail": "./img/thumb-blackjack.png",
