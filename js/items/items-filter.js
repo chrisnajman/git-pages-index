@@ -72,9 +72,9 @@ export default function itemsFilter() {
       case "course":
         categoryIntro.textContent = "Projects built from following a course."
         break
-      case "biology":
+      case "misc":
         categoryIntro.textContent =
-          "After I recovered from Covid, I became interested in genetics and the mechanics of viruses."
+          "Miscellaneous pages covering a range of subjects."
         break
       default:
         categoryIntro.textContent = "All Git Pages, most recent first."

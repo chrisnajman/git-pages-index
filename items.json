@@ -1,5 +1,15 @@
 [
     {
+        "title": "Alt-Penguin Classics",
+        "category": "misc",
+        "thumbnail": "./img/thumb-alt-penguin-classics.png",
+        "description": "Custom Penguin Classics book covers",
+        "features": [ "react-router-dom-v6", "vitejs", "html-css-javascript"],
+        "firstCommit": "25/10/2024",
+        "linkRepo": "https://github.com/chrisnajman/alt-penguin-classics",
+        "linkPage": "https://chrisnajman.github.io/alt-penguin-classics/"
+    },
+    {
         "title": "Cookie Cutter",
         "category": "apps",
         "thumbnail": "./img/thumb-cookie-cutter.png",
@@ -801,7 +811,7 @@
     },
     {
         "title": "Sars COV-2 Covid-19 Vaccines",
-        "category": "biology",
+        "category": "misc",
         "thumbnail": "./img/thumb-sars-cov-2-covid-19-vaccines.png",
         "description": "SARS-CoV-2 and Oxford-Astrazeneca / Pfizer/BioNTech vaccine pathways. Also describes immune responses, both to the vaccine itself and to post-vaccination viral invasion.",
         "features": [
@@ -819,7 +829,7 @@
     },
     {
         "title": "Baltimore Classification",
-        "category": "biology",
+        "category": "misc",
         "thumbnail": "./img/thumb-baltimore-classification.png",
         "description": "Slideshow of the seven classes of viral genomes as defined by the Baltimore Classification of Viruses. The slides show an example virus for each class.",
         "features": [
@@ -834,7 +844,7 @@
     },
     {
         "title": "HIV",
-        "category": "biology",
+        "category": "misc",
         "thumbnail": "./img/thumb-hiv.png",
         "description": "The classification, structure and replication cycle of HIV, its effect on the infected host cell (Helper T-cell) and on the infected organism (AIDS).",
         "features": [
@@ -849,7 +859,7 @@
     },
     {
         "title": "Genetic Drift",
-        "category": "biology",
+        "category": "misc",
         "thumbnail": "./img/thumb-genetic-drift.png",
         "description": "A discussion of the the effects of genetic drift. The page includes a simulator for charting different genetic drift scenarios.",
         "features": [
@@ -864,7 +874,7 @@
     },
     {
         "title": "Hardy-Weinberg Equilibrium Model",
-        "category": "biology",
+        "category": "misc",
         "thumbnail": "./img/thumb-hardy-weinberg-equilibrium-model.png",
         "description": "A discussion of the Hardy-Weinberg equilibrium model. Includes a calculator for getting genotype, allele and phenotype frequencies.",
         "features": [
