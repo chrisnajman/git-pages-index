@@ -1,5 +1,15 @@
 [
     {
+        "title": "Login Demo",
+        "category": "apps",
+        "thumbnail": "./img/thumb-login-demo.png",
+        "description": "A vanilla JavaScript login system using session storage to persist user data and dynamically load custom content across multiple pages",
+        "features": [ "html-css-javascript", "sessionstorage", "localstorage", "es6-modules", "css-nesting", "theme-switcher"],
+        "firstCommit": "10/01/2025",
+        "linkRepo": "https://github.com/chrisnajman/login-demo",
+        "linkPage": "https://chrisnajman.github.io/login-demo/"
+    },
+    {
         "title": "Alt-Penguin Classics",
         "category": "misc",
         "thumbnail": "./img/thumb-alt-penguin-classics.png",
