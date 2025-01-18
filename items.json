@@ -1,7 +1,17 @@
 [
     {
+        "title": "T-shirts",
+        "category": "snippets",
+        "thumbnail": "./img/thumb-tshirts.png",
+        "description": "Use of URLSearchParams to send information to another page to create a unique URL that can be saved and referenced later",
+        "features": [ "html-css-javascript", "URLSearchParams", "localstorage", "webp", "es6-modules", "css-nesting", "theme-switcher"],
+        "firstCommit": "18/01/2025",
+        "linkRepo": "https://github.com/chrisnajman/tshirts",
+        "linkPage": "https://chrisnajman.github.io/tshirts/"
+    },
+    {
         "title": "Login Demo",
-        "category": "apps",
+        "category": "snippets",
         "thumbnail": "./img/thumb-login-demo.png",
         "description": "A vanilla JavaScript login system using session storage to persist user data and dynamically load custom content across multiple pages",
         "features": [ "html-css-javascript", "sessionstorage", "localstorage", "es6-modules", "css-nesting", "theme-switcher"],
