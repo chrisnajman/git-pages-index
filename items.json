@@ -1,5 +1,17 @@
 [
     {
+        "title": "CSS Colour Filters",
+        "category": "snippet",
+        "thumbnail": "./img/thumb-colour-filters.png",
+        "description": "A simple webpage that demonstrates the use of CSS filters, specifically the hue-rotate() function combined with drop-shadow(). ",
+        "features": [
+            "html-css"
+        ],
+        "firstCommit": "20/01/2025",
+        "linkRepo": "https://github.com/chrisnajman/colour-filters",
+        "linkPage": "https://chrisnajman.github.io/colour-filters/"
+    },
+    {
         "title": "T-shirts",
         "category": "snippets",
         "thumbnail": "./img/thumb-tshirts.png",
