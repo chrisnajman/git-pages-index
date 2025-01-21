@@ -82,7 +82,6 @@
         & ul {
             display: flex;
             flex-wrap: wrap;
-            line-height: 1.2;
         }
 
         & li {

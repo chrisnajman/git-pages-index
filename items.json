@@ -1,4 +1,13 @@
-[
+[    {
+        "title": "T-shirts v.2",
+        "category": "apps",
+        "thumbnail": "./img/thumb-tshirts-v2.png",
+        "description": "Variation of 'T-shirts' (see below) using CSS colour filters and one image, instead of multiple images. Use of URLSearchParams to send information to another page to create a unique URL that can be saved and referenced later",
+        "features": [ "html-css-javascript", "URLSearchParams", "localstorage", "webp", "es6-modules", "css-nesting", "theme-switcher", "cssfilter"],
+        "firstCommit": "21/01/2025",
+        "linkRepo": "https://github.com/chrisnajman/tshirts-v2",
+        "linkPage": "https://chrisnajman.github.io/tshirts-v2/"
+    },
     {
         "title": "CSS Colour Filters",
         "category": "snippet",
@@ -13,7 +22,7 @@
     },
     {
         "title": "T-shirts",
-        "category": "snippets",
+        "category": "apps",
         "thumbnail": "./img/thumb-tshirts.png",
         "description": "Use of URLSearchParams to send information to another page to create a unique URL that can be saved and referenced later",
         "features": [ "html-css-javascript", "URLSearchParams", "localstorage", "webp", "es6-modules", "css-nesting", "theme-switcher"],
