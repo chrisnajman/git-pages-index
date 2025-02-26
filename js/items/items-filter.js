@@ -61,6 +61,10 @@ export default function itemsFilter() {
         categoryIntro.textContent =
           "HTML, CSS and JavaScript items that can be incorporated into other projects."
         break
+      case "widgets":
+        categoryIntro.textContent =
+          "Self-contained UI components that perform a specific function, such as displaying information or enabling user interaction."
+        break
       case "challenges":
         categoryIntro.textContent =
           "My response to frontend challenges set by various websites."

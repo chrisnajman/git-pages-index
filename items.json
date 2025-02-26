@@ -1,9 +1,26 @@
 [
   {
+    "title": "CSS Grid: auto-fit or auto-fill?",
+    "category": "widgets",
+    "thumbnail": "./img/thumb-auto-fit-auto-fill.png",
+    "description": "Widget demonstrating the difference between the auto-fill and auto-fit properties in CSS Grid.",
+    "features": [
+      "html-css-javascript",
+      "es6-modules",
+      "css-variables",
+      "css-grid",
+      "auto-fit",
+      "auto-fill"
+    ],
+    "firstCommit": "26/02/2025",
+    "linkRepo": "https://github.com/chrisnajman/css-grid-auto-fill-auto-fit",
+    "linkPage": "https://chrisnajman.github.io/css-grid-auto-fill-auto-fit/"
+  },
+  {
     "title": "Swearword Converter",
-    "category": "apps",
+    "category": "widgets",
     "thumbnail": "./img/thumb-swearword-converter.png",
-    "description": "Convert  text with swearwords to text with euphemisms. Copy new text to clipboard, if required",
+    "description": "Convert  text with swearwords to text with euphemisms. Copy new text to clipboard, if required.",
     "features": [
       "html-css-javascript",
       "es6-modules",
@@ -28,7 +45,7 @@
   },
   {
     "title": "T-shirts V.2",
-    "category": "apps",
+    "category": "widgets",
     "thumbnail": "./img/thumb-tshirts-v2.png",
     "description": "Variation of earlier project 'T-shirts' using CSS colour filters on one image instead of loading multiple images.",
     "features": [
@@ -47,7 +64,7 @@
   },
   {
     "title": "T-shirts",
-    "category": "apps",
+    "category": "widgets",
     "thumbnail": "./img/thumb-tshirts.png",
     "description": "Use of URLSearchParams to send information to another page to create a unique URL that can be saved and referenced later",
     "features": [
@@ -65,7 +82,7 @@
   },
   {
     "title": "Login Demo",
-    "category": "snippets",
+    "category": "widgets",
     "thumbnail": "./img/thumb-login-demo.png",
     "description": "A vanilla JavaScript login system using session storage to persist user data and dynamically load custom content across multiple pages",
     "features": [
