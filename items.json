@@ -18,7 +18,7 @@
   },
   {
     "title": "Swearword Converter",
-    "category": "widgets",
+    "category": "apps",
     "thumbnail": "./img/thumb-swearword-converter.png",
     "description": "Convert  text with swearwords to text with euphemisms. Copy new text to clipboard, if required.",
     "features": [
