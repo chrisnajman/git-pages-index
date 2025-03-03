@@ -1,5 +1,20 @@
 [
   {
+    "title": "Content <Template>",
+    "category": "snippets",
+    "thumbnail": "./img/thumb-content-template.png",
+    "description": "Use JavaScript to clone the contents of the <template> tag and dynamically insert user data into the DOM.",
+    "features": [
+      "html-css-javascript",
+      "json-api",
+      "template-tag",
+      "data-attributes"
+    ],
+    "firstCommit": "03/03/2025",
+    "linkRepo": "https://github.com/chrisnajman/content-template",
+    "linkPage": "https://chrisnajman.github.io/content-template/"
+  },
+  {
     "title": "CSS Grid: auto-fit or auto-fill?",
     "category": "widgets",
     "thumbnail": "./img/thumb-auto-fit-auto-fill.png",
