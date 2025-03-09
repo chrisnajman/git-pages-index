@@ -1,5 +1,23 @@
 [
   {
+    "title": "Intersection Observer API",
+    "category": "snippets",
+    "thumbnail": "./img/thumb-intersection-observer.png",
+    "description": "Various use cases of the Intersection Observer API across a four-page website.",
+    "features": [
+      "html-css-javascript",
+      "mobile-menu",
+      "css-nesting",
+      "js-modules",
+      "intersection-observer-api",
+      "loading-spinner",
+      "theme-switcher"
+    ],
+    "firstCommit": "09/03/2025",
+    "linkRepo": "https://github.com/chrisnajman/intersection-observer-api",
+    "linkPage": "https://chrisnajman.github.io/intersection-observer-api"
+  },
+  {
     "title": "Content <Template>",
     "category": "snippets",
     "thumbnail": "./img/thumb-content-template.png",
