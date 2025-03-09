@@ -33,6 +33,23 @@
     "linkPage": "https://chrisnajman.github.io/content-template/"
   },
   {
+    "title": "Simple Template",
+    "category": "snippets",
+    "thumbnail": "./img/thumb-simple-template.png",
+    "description": "Template for presenting snippets and simple widgets. Can be used for single and multi-page sites.",
+    "features": [
+      "html-css-javascript",
+      "mobile-menu",
+      "css-nesting",
+      "js-modules",
+      "loading-spinner",
+      "theme-switcher"
+    ],
+    "firstCommit": "02/03/2025",
+    "linkRepo": "https://github.com/chrisnajman/simple-template",
+    "linkPage": "https://chrisnajman.github.io/simple-template/"
+  },
+  {
     "title": "CSS Grid: auto-fit or auto-fill?",
     "category": "widgets",
     "thumbnail": "./img/thumb-auto-fit-auto-fill.png",
