@@ -197,6 +197,11 @@ button {
         max-width: 60ch;
     }
 
+    & .category-intro {
+        text-align: center;
+        text-wrap: balance;
+    }
+
     & section {
         display: flex;
         flex-direction: column;
