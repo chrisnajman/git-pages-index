@@ -1,5 +1,20 @@
 [
   {
+    "title": "404: Page not found",
+    "category": "snippets",
+    "thumbnail": "./img/thumb-404.png",
+    "description": "Simple 404 page to test colour combinations that meet WCAG AAA contrast standards.",
+    "features": [
+      "html-css-javascript",
+      "wcag-aaa",
+      "loading-spinner",
+      "theme-switcher"
+    ],
+    "firstCommit": "25/03/2025",
+    "linkRepo": "https://github.com/chrisnajman/404",
+    "linkPage": "https://chrisnajman.github.io/404"
+  },
+  {
     "title": "Intersection Observer API",
     "category": "snippets",
     "thumbnail": "./img/thumb-intersection-observer.png",
