@@ -1,9 +1,25 @@
 [
   {
+    "title": "Contrast Slider",
+    "category": "widgets",
+    "thumbnail": "./img/thumb-contrast-slider.png",
+    "description": "Allows users to adjust background and text color while maintaining WCAG accessibility standards.",
+    "features": [
+      "html-css-javascript",
+      "wcag-contrast",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility"
+    ],
+    "firstCommit": "27/03/2025",
+    "linkRepo": "https://github.com/chrisnajman/contrast-slider",
+    "linkPage": "https://chrisnajman.github.io/contrast-slider"
+  },
+  {
     "title": "404: Page not found",
     "category": "snippets",
     "thumbnail": "./img/thumb-404.png",
-    "description": "Simple 404 page to test colour combinations that meet WCAG AAA contrast standards.",
+    "description": "404 page to test colour combinations that meet WCAG AAA contrast standards.",
     "features": [
       "html-css-javascript",
       "wcag-aaa",
