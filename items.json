@@ -1,5 +1,23 @@
 [
   {
+    "title": "Colour Contrast Checker",
+    "category": "apps",
+    "thumbnail": "./img/thumb-colour-contrast-checker.png",
+    "description": "Check the contrast between text and background colors to ensure accessibility compliance with WCAG standards. Instantly see pass/fail results and contrast ratios.",
+    "features": [
+      "html-css-javascript",
+      "wcag-contrast",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "api",
+      "theme-switcher"
+    ],
+    "firstCommit": "30/03/2025",
+    "linkRepo": "https://github.com/chrisnajman/colour-contrast-checker",
+    "linkPage": "https://chrisnajman.github.io/colour-contrast-checker/"
+  },
+  {
     "title": "Contrast Slider",
     "category": "widgets",
     "thumbnail": "./img/thumb-contrast-slider.png",
