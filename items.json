@@ -1,5 +1,25 @@
 [
   {
+    "title": "FAQ",
+    "category": "snippet",
+    "thumbnail": "./img/thumb-faq.png",
+    "description": "An accessible FAQ accordion. The CSS enhances the 'details' element with a smooth height transition only when it's safe and supported. It uses modern CSS features with progressive enhancement in mind.",
+    "features": [
+      "html-css-javascript",
+      "css-transitions",
+      "interpolation-techniques",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "prefers-reduced-motion",
+      "supports"
+    ],
+    "firstCommit": "01/04/2025",
+    "linkRepo": "https://github.com/chrisnajman/faqs",
+    "linkPage": "https://chrisnajman.github.io/faqs/"
+  },
+  {
     "title": "Colour Contrast Checker",
     "category": "apps",
     "thumbnail": "./img/thumb-colour-contrast-checker.png",
