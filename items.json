@@ -1,7 +1,7 @@
 [
   {
     "title": "Accessible Accordion V2",
-    "category": "snippet",
+    "category": "snippets",
     "thumbnail": "./img/thumb-faq.png",
     "description": "Accessible accordions, multiple and single. The CSS enhances the accordions with a smooth height transition only when it's safe and supported. It uses modern CSS features with progressive enhancement in mind.",
     "features": [
