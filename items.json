@@ -154,7 +154,7 @@
   },
   {
     "title": "CSS Colour Filters",
-    "category": "snippet",
+    "category": "snippets",
     "thumbnail": "./img/thumb-colour-filters.png",
     "description": "A simple webpage that demonstrates the use of CSS filters, specifically the hue-rotate() function combined with drop-shadow(). ",
     "features": ["html-css", "css-filters"],
