@@ -3,7 +3,7 @@
     "title": "Accessible Accordion V2",
     "category": "snippets",
     "thumbnail": "./img/thumb-faq.png",
-    "description": "Accessible accordions, multiple and single. The CSS enhances the accordions with a smooth height transition only when it's safe and supported. It uses modern CSS features with progressive enhancement in mind.",
+    "description": "Accessible accordions, multiple, single and nested. The CSS enhances the accordions with a smooth height transition only when it's safe and supported. It uses modern CSS features with progressive enhancement in mind.",
     "features": [
       "html-css-javascript",
       "css-transitions",
@@ -13,7 +13,8 @@
       "accessibility",
       "theme-switcher",
       "prefers-reduced-motion",
-      "supports"
+      "supports",
+      "mobile-menu"
     ],
     "firstCommit": "01/04/2025",
     "linkRepo": "https://github.com/chrisnajman/accessible-accordion-v2",
