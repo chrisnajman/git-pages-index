@@ -1,5 +1,22 @@
 [
   {
+    "title": "Eye Dropper",
+    "category": "widgets",
+    "thumbnail": "./img/thumb-eye-dropper.png",
+    "description": "Demonstration of the Eye Dropper API, allowing users to select a colour from anywhere on the screen and view its hex value and visual swatch. Fully accessible and theme-aware.",
+    "features": [
+      "html-css-javascript",
+      "eye-dropper-api",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher"
+    ],
+    "firstCommit": "30/04/2025",
+    "linkRepo": "https://github.com/chrisnajman/eye-dropper",
+    "linkPage": "https://chrisnajman.github.io/eye-dropper/"
+  },
+  {
     "title": "Accessible Accordion V2",
     "category": "snippets",
     "thumbnail": "./img/thumb-faq.png",
