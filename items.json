@@ -1,5 +1,24 @@
 [
   {
+    "title": "CSS Grid Reading-flow Tests",
+    "category": "widgets",
+    "thumbnail": "./img/thumb-grid-reading-flow.png",
+    "description": "Demonstration and testing of the experimental CSS reading-flow property, featuring dynamic grid layout variations with accessible keyboard navigation and real-time ARIA live region updates.",
+    "features": [
+      "html-css-javascript",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "css-grid",
+      "aria-attributes",
+      "css-grid-reading-flow"
+    ],
+    "firstCommit": "30/05/2025",
+    "linkRepo": "https://github.com/chrisnajman/grid-reading-flow-tests",
+    "linkPage": "https://chrisnajman.github.io/grid-reading-flow-tests/"
+  },
+  {
     "title": "Eye Dropper",
     "category": "widgets",
     "thumbnail": "./img/thumb-eye-dropper.png",
