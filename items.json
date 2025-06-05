@@ -1,5 +1,25 @@
 [
   {
+    "title": "CSS Form Styling",
+    "category": "snippets",
+    "thumbnail": "./img/thumb-form-styling.png",
+    "description": "A responsive, accessible demo form styled with modern CSS Grid layout and enhanced with vanilla JavaScript for interactivity.",
+    "features": [
+      "html-css-javascript",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "css-grid",
+      "css-flexbox",
+      "aria-attributes",
+      "css-nesting"
+    ],
+    "firstCommit": "05/06/2025",
+    "linkRepo": "https://github.com/chrisnajman/css-form-styling",
+    "linkPage": "https://chrisnajman.github.io/css-form-styling/"
+  },
+  {
     "title": "CSS Grid Reading-flow Tests",
     "category": "widgets",
     "thumbnail": "./img/thumb-grid-reading-flow.png",
