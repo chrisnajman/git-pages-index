@@ -1,5 +1,27 @@
 [
   {
+    "title": "Pool Schedules",
+    "category": "apps",
+    "thumbnail": "./img/thumb-pool-schedules.png",
+    "description": "Admin interface for setting daily pool schedules, simulating an intranet page for internal use and a page to view results. Supports schedule creation, editing, and storage.",
+    "features": [
+      "html-css-javascript",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "css-grid",
+      "css-flexbox",
+      "aria-attributes",
+      "css-nesting",
+      "localstorage",
+      "urlsearchparams"
+    ],
+    "firstCommit": "30/06/2025",
+    "linkRepo": "https://github.com/chrisnajman/pool-schedules",
+    "linkPage": "https://chrisnajman.github.io/pool-schedules/"
+  },
+  {
     "title": "CSS Form Styling",
     "category": "snippets",
     "thumbnail": "./img/thumb-form-styling.png",
