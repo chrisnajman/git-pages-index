@@ -15,7 +15,11 @@
       "aria-attributes",
       "css-nesting",
       "localstorage",
-      "urlsearchparams"
+      "urlsearchparams",
+      "esbuild",
+      "postcss",
+      "postcss-nesting",
+      "nano"
     ],
     "firstCommit": "30/06/2025",
     "linkRepo": "https://github.com/chrisnajman/pool-schedules",
