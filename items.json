@@ -1,5 +1,33 @@
 [
   {
+    "title": "GitHub Pages Optimised Build",
+    "category": "snippets",
+    "thumbnail": "./img/github-pages-optimised-build-thumb.png",
+    "description": "GitHub Pages site template built from the '/docs' folder using an automated front-end build process with minified HTML, CSS and (transpiled) JavaScript.",
+    "features": [
+      "html-css-javascript",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "css-grid",
+      "css-flexbox",
+      "aria-attributes",
+      "css-nesting",
+      "esbuild",
+      "postcss",
+      "postcss-nesting",
+      "postcss-cli",
+      "postcss-import",
+      "html-minifier-terser",
+      "cssnano",
+      "mobile-menu"
+    ],
+    "firstCommit": "06/07/2025",
+    "linkRepo": "https://github.com/chrisnajman/github-pages-optimised-build",
+    "linkPage": "https://chrisnajman.github.io/github-pages-optimised-build/"
+  },
+  {
     "title": "Pool Schedules",
     "category": "apps",
     "thumbnail": "./img/thumb-pool-schedules.png",
@@ -19,7 +47,7 @@
       "esbuild",
       "postcss",
       "postcss-nesting",
-      "nano"
+      "cssnano"
     ],
     "firstCommit": "30/06/2025",
     "linkRepo": "https://github.com/chrisnajman/pool-schedules",
@@ -188,7 +216,7 @@
     "title": "Simple Template",
     "category": "snippets",
     "thumbnail": "./img/thumb-simple-template.png",
-    "description": "Template for presenting snippets and simple widgets. Can be used for single and multi-page sites.",
+    "description": "Template for presenting snippets and simple widgets. Can be used for single and multi-page sites. DEPRECATED! Use 'GitHub Pages Optimised Build' instead.",
     "features": [
       "html-css-javascript",
       "mobile-menu",
