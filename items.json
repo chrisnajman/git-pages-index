@@ -1,5 +1,29 @@
 [
   {
+    "title": "Meal Item Selector",
+    "category": "widgets",
+    "thumbnail": "./img/meal-item-selector-thumb.png",
+    "description": "A checkbox-driven meal item manager that enforces selection limits for precise user input control.",
+    "features": [
+      "html-css-javascript",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "css-grid",
+      "css-flexbox",
+      "aria-attributes",
+      "css-nesting",
+      "esbuild",
+      "postcss",
+      "html-minifier-terser",
+      "cssnano"
+    ],
+    "firstCommit": "18/07/2025",
+    "linkRepo": "https://github.com/chrisnajman/meal-item-selector",
+    "linkPage": "https://chrisnajman.github.io/meal-item-selector/"
+  },
+  {
     "title": "GitHub Pages Optimised Build",
     "category": "snippets",
     "thumbnail": "./img/github-pages-optimised-build-thumb.png",
@@ -19,6 +43,7 @@
       "postcss-nesting",
       "postcss-cli",
       "postcss-import",
+      "postcss-url",
       "html-minifier-terser",
       "cssnano",
       "mobile-menu"
