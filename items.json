@@ -1,5 +1,29 @@
 [
   {
+    "title": "Tabs",
+    "category": "widgets",
+    "thumbnail": "./img/tabs-thumb.png",
+    "description": "Responsive, accessible tabs with full keyboard support and ARIA semantics.",
+    "features": [
+      "html-css-javascript",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "css-grid",
+      "css-flexbox",
+      "aria-attributes",
+      "css-nesting",
+      "esbuild",
+      "postcss",
+      "html-minifier-terser",
+      "cssnano"
+    ],
+    "firstCommit": "19/07/2025",
+    "linkRepo": "https://github.com/chrisnajman/tabs",
+    "linkPage": "https://chrisnajman.github.io/tabs/"
+  },
+  {
     "title": "Meal Item Selector",
     "category": "widgets",
     "thumbnail": "./img/meal-item-selector-thumb.png",
