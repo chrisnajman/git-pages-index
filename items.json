@@ -1,5 +1,33 @@
 [
   {
+    "title": "Pagination",
+    "category": "widgets",
+    "thumbnail": "./img/pagination-thumb.png",
+    "description": "A fully accessible, modular JavaScript pagination component with screen reader support, dynamic content loading, and URL syncing for seamless navigation.",
+    "features": [
+      "html-css-javascript",
+      "pagination",
+      "history-management",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "css-grid",
+      "css-flexbox",
+      "aria-attributes",
+      "live-regions",
+      "json",
+      "css-nesting",
+      "esbuild",
+      "postcss",
+      "html-minifier-terser",
+      "cssnano"
+    ],
+    "firstCommit": "27/07/2025",
+    "linkRepo": "https://github.com/chrisnajman/pagination",
+    "linkPage": "https://chrisnajman.github.io/pagination/"
+  },
+  {
     "title": "Tabs",
     "category": "widgets",
     "thumbnail": "./img/tabs-thumb.png",
