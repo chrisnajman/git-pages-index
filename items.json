@@ -1,5 +1,34 @@
 [
   {
+    "title": "Paginators",
+    "category": "widgets",
+    "thumbnail": "./img/paginators-thumb.png",
+    "description": "A modular, lightweight and accessible pagination system for displaying content from various (and varied) JSON data sources. Supports multiple pages with a customisable number of items per page and dynamic pagination buttons.",
+    "features": [
+      "html-css-javascript",
+      "pagination",
+      "history-management",
+      "loading-spinner",
+      "es6-modules",
+      "accessibility",
+      "theme-switcher",
+      "css-grid",
+      "css-flexbox",
+      "aria-attributes",
+      "live-regions",
+      "json",
+      "css-nesting",
+      "esbuild",
+      "postcss",
+      "html-minifier-terser",
+      "cssnano",
+      "chatgpt-free"
+    ],
+    "firstCommit": "23/08/2025",
+    "linkRepo": "https://github.com/chrisnajman/paginators",
+    "linkPage": "https://chrisnajman.github.io/paginators/"
+  },
+  {
     "title": "Posts Pagination",
     "category": "widgets",
     "thumbnail": "./img/posts-pagination-thumb.png",
