@@ -21,7 +21,8 @@
       "css-imports",
       "css-nesting",
       "html-minifier-terser",
-      "anchor-positioning"
+      "anchor-positioning",
+      "chatgpt-free"
     ],
     "firstCommit": "12/09/2025",
     "linkRepo": "https://github.com/chrisnajman/details-dropdown-menu",
