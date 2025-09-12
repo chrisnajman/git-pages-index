@@ -1,5 +1,33 @@
 [
   {
+    "title": "Details Dropdown Menu",
+    "category": "widgets",
+    "thumbnail": "./img/details-dropdown-menu-thumb.png",
+    "description": "Dropdown menu using the HTML details element and anchor positioning.",
+    "features": [
+      "postcss",
+      "accessibility",
+      "css-grid",
+      "es6-modules",
+      "aria-attributes",
+      "html-css-javascript",
+      "cssnano",
+      "loading-spinner",
+      "details",
+      "theme-switcher",
+      "css-flexbox",
+      "dropdown-menu",
+      "esbuild",
+      "css-imports",
+      "css-nesting",
+      "html-minifier-terser",
+      "anchor-positioning"
+    ],
+    "firstCommit": "12/09/2025",
+    "linkRepo": "https://github.com/chrisnajman/details-dropdown-menu",
+    "linkPage": "https://chrisnajman.github.io/details-dropdown-menu/"
+  },
+  {
     "title": "Paginators",
     "category": "widgets",
     "thumbnail": "./img/paginators-thumb.png",
