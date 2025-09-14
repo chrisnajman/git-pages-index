@@ -289,7 +289,8 @@
       "theme-switcher",
       "prefers-reduced-motion",
       "supports",
-      "mobile-menu"
+      "mobile-menu",
+      "no-js"
     ],
     "firstCommit": "01/04/2025",
     "linkRepo": "https://github.com/chrisnajman/accessible-accordion-v2",
