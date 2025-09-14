@@ -22,7 +22,8 @@
       "css-nesting",
       "html-minifier-terser",
       "anchor-positioning",
-      "chatgpt-free"
+      "chatgpt-free",
+      "no-js"
     ],
     "firstCommit": "12/09/2025",
     "linkRepo": "https://github.com/chrisnajman/details-dropdown-menu",
@@ -51,7 +52,8 @@
       "postcss",
       "html-minifier-terser",
       "cssnano",
-      "chatgpt-free"
+      "chatgpt-free",
+      "no-js"
     ],
     "firstCommit": "23/08/2025",
     "linkRepo": "https://github.com/chrisnajman/paginators",
