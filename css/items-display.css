@@ -38,7 +38,8 @@
     & img {
         border: 6px solid var(--clr-green);
         border-radius: 0.5rem;
-        width: clamp(20rem, 17.5rem + 6.6667vw, 25rem);
+        width: clamp(11.75rem, 10.5rem + 5.84vw, 14.875rem);
+        aspect-ratio: 16 / 9;
     }
 
     & .img-desc {
