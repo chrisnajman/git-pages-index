@@ -1,5 +1,32 @@
 [
   {
+    "title": "Filter Quotes",
+    "category": "widgets",
+    "thumbnail": "./img/filter-quotes-menu-thumb.png",
+    "description": "A collection of quotes from philosophers, artists, and writers. You can filter the list by author or tag to view related quotes.",
+    "features": [
+      "accessibility",
+      "aria-attributes",
+      "css-flexbox",
+      "css-grid",
+      "css-imports",
+      "css-nesting",
+      "cssnano",
+      "details",
+      "es6-modules",
+      "esbuild",
+      "html-css-javascript",
+      "html-minifier-terser",
+      "loading-spinner",
+      "no-js",
+      "postcss",
+      "theme-switcher"
+    ],
+    "firstCommit": "07/10/2025",
+    "linkRepo": "https://github.com/chrisnajman/filter-quotes",
+    "linkPage": "https://chrisnajman.github.io/filter-quotes/"
+  },
+  {
     "title": "Details Dropdown Menu",
     "category": "widgets",
     "thumbnail": "./img/details-dropdown-menu-thumb.png",
