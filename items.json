@@ -1,8 +1,37 @@
 [
   {
+    "title": "Filter Quotes (V.2)",
+    "category": "widgets",
+    "thumbnail": "./img/filter-quotes-v2-thumb.png",
+    "description": "A lightweight app for displaying a collection of miscellaneous quotations using a JSON file and an HTML template. The list can be filtered by author or tag to view related entries.",
+    "features": [
+      "accessibility",
+      "aria-attributes",
+      "css-flexbox",
+      "css-grid",
+      "css-imports",
+      "css-nesting",
+      "cssnano",
+      "details",
+      "es6-modules",
+      "esbuild",
+      "html-css-javascript",
+      "html-minifier-terser",
+      "loading-spinner",
+      "no-js",
+      "postcss",
+      "theme-switcher",
+      "json",
+      "html-template"
+    ],
+    "firstCommit": "10/10/2025",
+    "linkRepo": "https://github.com/chrisnajman/filter-quotes-v2",
+    "linkPage": "https://chrisnajman.github.io/filter-quotes-v2/"
+  },
+  {
     "title": "Filter Quotes",
     "category": "widgets",
-    "thumbnail": "./img/filter-quotes-menu-thumb.png",
+    "thumbnail": "./img/filter-quotes-thumb.png",
     "description": "A collection of quotes from philosophers, artists, and writers. You can filter the list by author or tag to view related quotes.",
     "features": [
       "accessibility",
