@@ -22,7 +22,9 @@
       "postcss",
       "theme-switcher",
       "json",
-      "html-template"
+      "html-template",
+      "sticky-header",
+      "resize-observer"
     ],
     "firstCommit": "10/10/2025",
     "linkRepo": "https://github.com/chrisnajman/filter-quotes-v2",
