@@ -1,9 +1,9 @@
 [
   {
-    "title": "Filter Quotes (V.2)",
-    "category": "widgets",
+    "title": "Filter Quotations",
+    "category": "apps",
     "thumbnail": "./img/filter-quotes-v2-thumb.png",
-    "description": "A lightweight app for displaying a collection of miscellaneous quotations using a JSON file and an HTML template. The list can be filtered by author or tag to view related entries.",
+    "description": "A lightweight app for displaying a collection of quotations from a JSON file using an HTML template. Short quotes use <q>, longer ones use <blockquote>, and entries can be filtered by author or tag.",
     "features": [
       "accessibility",
       "aria-attributes",
@@ -32,7 +32,7 @@
   },
   {
     "title": "Filter Quotes",
-    "category": "widgets",
+    "category": "apps",
     "thumbnail": "./img/filter-quotes-thumb.png",
     "description": "A collection of quotes from philosophers, artists, and writers. You can filter the list by author or tag to view related quotes.",
     "features": [
