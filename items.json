@@ -3,7 +3,7 @@
     "title": "Journal (2025)",
     "category": "apps",
     "thumbnail": "./img/journal-2025-thumb.png",
-    "description": "A journal web app that saves entries and images locally in your browser using IndexedDB. Supports adding, editing, deleting, lazy-loaded images, and exporting your entries as JSON.  (This is an improved update of an earlier journal project.)",
+    "description": "A journal web app that saves entries and images locally in your browser using IndexedDB. Supports adding, editing, deleting, lazy-loaded images, and exporting entries as JSON.  (This is an improved update of an earlier journal project.)",
     "features": [
       "accessibility",
       "aria-attributes",
