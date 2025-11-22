@@ -1,5 +1,36 @@
 [
   {
+    "title": "Journal (2025)",
+    "category": "apps",
+    "thumbnail": "./img/journal-2025-thumb.png",
+    "description": "A journal web app that saves entries and images locally in your browser using IndexedDB. Supports adding, editing, deleting, lazy-loaded images, and exporting your entries as JSON.  (This is an improved update of an earlier journal project.)",
+    "features": [
+      "accessibility",
+      "aria-attributes",
+      "css-grid",
+      "css-nesting",
+      "cssnano",
+      "es6-modules",
+      "esbuild",
+      "html-minifier-terser",
+      "loading-spinner",
+      "no-js",
+      "postcss",
+      "theme-switcher",
+      "json",
+      "html-template",
+      "indexeddb",
+      "localstorage",
+      "lazy-loading",
+      "intersection-observer",
+      "quota-management",
+      "chatgpt-free"
+    ],
+    "firstCommit": "16/11/2025",
+    "linkRepo": "https://github.com/chrisnajman/journal-2025",
+    "linkPage": "https://chrisnajman.github.io/journal-2025/"
+  },
+  {
     "title": "Filter Quotations",
     "category": "apps",
     "thumbnail": "./img/filter-quotes-v2-thumb.png",
@@ -24,7 +55,8 @@
       "json",
       "html-template",
       "sticky-header",
-      "resize-observer"
+      "resize-observer",
+      "no-js"
     ],
     "firstCommit": "10/10/2025",
     "linkRepo": "https://github.com/chrisnajman/filter-quotes-v2",
@@ -246,7 +278,10 @@
       "postcss-url",
       "html-minifier-terser",
       "cssnano",
-      "mobile-menu"
+      "mobile-menu",
+      "no-js",
+      "sticky-header",
+      "intersection-observer"
     ],
     "firstCommit": "06/07/2025",
     "linkRepo": "https://github.com/chrisnajman/github-pages-optimised-build",
