@@ -1,5 +1,31 @@
 [
   {
+    "title": "Custom Form Validation",
+    "category": "widgets",
+    "thumbnail": "./img/thumb-custom-form-validation.png",
+    "description": "HTML form with custom validation error messages and no-JavaScript fallback.",
+    "features": [
+      "client-side-form-validation",
+      "accessibility",
+      "aria-attributes",
+      "css-grid",
+      "css-nesting",
+      "cssnano",
+      "es6-modules",
+      "esbuild",
+      "html-minifier-terser",
+      "loading-spinner",
+      "no-js",
+      "postcss",
+      "theme-switcher",
+      "localstorage",
+      "lazy-loading"
+    ],
+    "firstCommit": "19/12/2025",
+    "linkRepo": "https://github.com/chrisnajman/custom-form-validation",
+    "linkPage": "https://chrisnajman.github.io/custom-form-validation/"
+  },
+  {
     "title": "Journal (2025)",
     "category": "apps",
     "thumbnail": "./img/journal-2025-thumb.png",
@@ -49,7 +75,6 @@
       "html-css-javascript",
       "html-minifier-terser",
       "loading-spinner",
-      "no-js",
       "postcss",
       "theme-switcher",
       "json",
