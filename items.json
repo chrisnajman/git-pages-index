@@ -43,14 +43,14 @@
       "no-js",
       "postcss",
       "theme-switcher",
-      "json",
       "html-template",
       "indexeddb",
       "localstorage",
       "lazy-loading",
       "intersection-observer",
       "quota-management",
-      "chatgpt-free"
+      "chatgpt-free",
+      "client-side-form-validation"
     ],
     "firstCommit": "16/11/2025",
     "linkRepo": "https://github.com/chrisnajman/journal-2025",
